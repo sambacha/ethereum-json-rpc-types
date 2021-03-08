@@ -1,0 +1,12 @@
+{
+  "name": "ethereum-json-rpc-types",
+  "version": "0.1.0",
+  "description": "json rpc types",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
