@@ -1,4 +1,4 @@
-[@etclabscore/ethereum-json-rpc - v1.3.13](../README.md) › [Filter](filter.md)
+[ethereum-json-rpc - v1.3.13](../README.md) › [Filter](filter.md)
 
 # Interface: Filter
 
