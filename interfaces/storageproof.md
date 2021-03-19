@@ -6,11 +6,11 @@ Object proving a relationship of a storage value to an account's storageHash.
 
 ## Hierarchy
 
-* **StorageProof**
+- **StorageProof**
 
 ## Indexable
 
-* \[ **k**: *string*\]: any
+- \[ **k**: _string_\]: any
 
 Object proving a relationship of a storage value to an account's storageHash.
 
@@ -18,30 +18,30 @@ Object proving a relationship of a storage value to an account's storageHash.
 
 ### Properties
 
-* [key](storageproof.md#optional-key)
-* [proof](storageproof.md#optional-proof)
-* [value](storageproof.md#optional-value)
+- [key](storageproof.md#optional-key)
+- [proof](storageproof.md#optional-proof)
+- [value](storageproof.md#optional-value)
 
 ## Properties
 
 ### `Optional` key
 
-• **key**? : *[StorageProofKey](../README.md#storageproofkey)*
+• **key**? : _[StorageProofKey](../README.md#storageproofkey)_
 
 Defined in index.d.ts:450
 
-___
+---
 
 ### `Optional` proof
 
-• **proof**? : *[ProofNodes](../README.md#proofnodes)*
+• **proof**? : _[ProofNodes](../README.md#proofnodes)_
 
 Defined in index.d.ts:452
 
-___
+---
 
 ### `Optional` value
 
-• **value**? : *[StorageProofValue](../README.md#storageproofvalue)*
+• **value**? : _[StorageProofValue](../README.md#storageproofvalue)_
 
 Defined in index.d.ts:451

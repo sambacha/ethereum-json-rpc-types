@@ -6,11 +6,11 @@ The Block is the collection of relevant pieces of information (known as the bloc
 
 ## Hierarchy
 
-* **Block**
+- **Block**
 
 ## Indexable
 
-* \[ **k**: *string*\]: any
+- \[ **k**: _string_\]: any
 
 The Block is the collection of relevant pieces of information (known as the block header), together with information corresponding to the comprised transactions, and a set of other block headers that are known to have a parent equal to the present block’s parent’s parent.
 
@@ -18,174 +18,174 @@ The Block is the collection of relevant pieces of information (known as the bloc
 
 ### Properties
 
-* [difficulty](block.md#optional-difficulty)
-* [extraData](block.md#optional-extradata)
-* [gasLimit](block.md#optional-gaslimit)
-* [gasUsed](block.md#optional-gasused)
-* [hash](block.md#optional-hash)
-* [logsBloom](block.md#optional-logsbloom)
-* [miner](block.md#optional-miner)
-* [nonce](block.md#optional-nonce)
-* [number](block.md#optional-number)
-* [parentHash](block.md#optional-parenthash)
-* [receiptsRoot](block.md#optional-receiptsroot)
-* [sha3Uncles](block.md#optional-sha3uncles)
-* [size](block.md#optional-size)
-* [stateRoot](block.md#optional-stateroot)
-* [timestamp](block.md#optional-timestamp)
-* [totalDifficulty](block.md#optional-totaldifficulty)
-* [transactions](block.md#optional-transactions)
-* [transactionsRoot](block.md#optional-transactionsroot)
-* [uncles](block.md#optional-uncles)
+- [difficulty](block.md#optional-difficulty)
+- [extraData](block.md#optional-extradata)
+- [gasLimit](block.md#optional-gaslimit)
+- [gasUsed](block.md#optional-gasused)
+- [hash](block.md#optional-hash)
+- [logsBloom](block.md#optional-logsbloom)
+- [miner](block.md#optional-miner)
+- [nonce](block.md#optional-nonce)
+- [number](block.md#optional-number)
+- [parentHash](block.md#optional-parenthash)
+- [receiptsRoot](block.md#optional-receiptsroot)
+- [sha3Uncles](block.md#optional-sha3uncles)
+- [size](block.md#optional-size)
+- [stateRoot](block.md#optional-stateroot)
+- [timestamp](block.md#optional-timestamp)
+- [totalDifficulty](block.md#optional-totaldifficulty)
+- [transactions](block.md#optional-transactions)
+- [transactionsRoot](block.md#optional-transactionsroot)
+- [uncles](block.md#optional-uncles)
 
 ## Properties
 
 ### `Optional` difficulty
 
-• **difficulty**? : *[BlockDifficulty](../README.md#blockdifficulty)*
+• **difficulty**? : _[BlockDifficulty](../README.md#blockdifficulty)_
 
 Defined in index.d.ts:281
 
-___
+---
 
 ### `Optional` extraData
 
-• **extraData**? : *[BlockExtraData](../README.md#blockextradata)*
+• **extraData**? : _[BlockExtraData](../README.md#blockextradata)_
 
 Defined in index.d.ts:283
 
-___
+---
 
 ### `Optional` gasLimit
 
-• **gasLimit**? : *[BlockGasLimit](../README.md#blockgaslimit)*
+• **gasLimit**? : _[BlockGasLimit](../README.md#blockgaslimit)_
 
 Defined in index.d.ts:285
 
-___
+---
 
 ### `Optional` gasUsed
 
-• **gasUsed**? : *[BlockGasUsed](../README.md#blockgasused)*
+• **gasUsed**? : _[BlockGasUsed](../README.md#blockgasused)_
 
 Defined in index.d.ts:286
 
-___
+---
 
 ### `Optional` hash
 
-• **hash**? : *[BlockHashOrNull](../README.md#blockhashornull)*
+• **hash**? : _[BlockHashOrNull](../README.md#blockhashornull)_
 
 Defined in index.d.ts:272
 
-___
+---
 
 ### `Optional` logsBloom
 
-• **logsBloom**? : *[BlockLogsBloom](../README.md#blocklogsbloom)*
+• **logsBloom**? : _[BlockLogsBloom](../README.md#blocklogsbloom)_
 
 Defined in index.d.ts:276
 
-___
+---
 
 ### `Optional` miner
 
-• **miner**? : *[AddressOrNull](../README.md#addressornull)*
+• **miner**? : _[AddressOrNull](../README.md#addressornull)_
 
 Defined in index.d.ts:280
 
-___
+---
 
 ### `Optional` nonce
 
-• **nonce**? : *[NonceOrNull](../README.md#nonceornull)*
+• **nonce**? : _[NonceOrNull](../README.md#nonceornull)_
 
 Defined in index.d.ts:274
 
-___
+---
 
 ### `Optional` number
 
-• **number**? : *[BlockNumberOrNull](../README.md#blocknumberornull)*
+• **number**? : _[BlockNumberOrNull](../README.md#blocknumberornull)_
 
 Defined in index.d.ts:271
 
-___
+---
 
 ### `Optional` parentHash
 
-• **parentHash**? : *[BlockHash](../README.md#blockhash)*
+• **parentHash**? : _[BlockHash](../README.md#blockhash)_
 
 Defined in index.d.ts:273
 
-___
+---
 
 ### `Optional` receiptsRoot
 
-• **receiptsRoot**? : *[BlockReceiptsRoot](../README.md#blockreceiptsroot)*
+• **receiptsRoot**? : _[BlockReceiptsRoot](../README.md#blockreceiptsroot)_
 
 Defined in index.d.ts:279
 
-___
+---
 
 ### `Optional` sha3Uncles
 
-• **sha3Uncles**? : *[BlockShaUncles](../README.md#blockshauncles)*
+• **sha3Uncles**? : _[BlockShaUncles](../README.md#blockshauncles)_
 
 Defined in index.d.ts:275
 
-___
+---
 
 ### `Optional` size
 
-• **size**? : *[BlockSize](../README.md#blocksize)*
+• **size**? : _[BlockSize](../README.md#blocksize)_
 
 Defined in index.d.ts:284
 
-___
+---
 
 ### `Optional` stateRoot
 
-• **stateRoot**? : *[BlockStateRoot](../README.md#blockstateroot)*
+• **stateRoot**? : _[BlockStateRoot](../README.md#blockstateroot)_
 
 Defined in index.d.ts:278
 
-___
+---
 
 ### `Optional` timestamp
 
-• **timestamp**? : *[BlockTimeStamp](../README.md#blocktimestamp)*
+• **timestamp**? : _[BlockTimeStamp](../README.md#blocktimestamp)_
 
 Defined in index.d.ts:287
 
-___
+---
 
 ### `Optional` totalDifficulty
 
-• **totalDifficulty**? : *[BlockTotalDifficulty](../README.md#blocktotaldifficulty)*
+• **totalDifficulty**? : _[BlockTotalDifficulty](../README.md#blocktotaldifficulty)_
 
 Defined in index.d.ts:282
 
-___
+---
 
 ### `Optional` transactions
 
-• **transactions**? : *[TransactionsOrHashes](../README.md#transactionsorhashes)*
+• **transactions**? : _[TransactionsOrHashes](../README.md#transactionsorhashes)_
 
 Defined in index.d.ts:288
 
-___
+---
 
 ### `Optional` transactionsRoot
 
-• **transactionsRoot**? : *[BlockTransactionsRoot](../README.md#blocktransactionsroot)*
+• **transactionsRoot**? : _[BlockTransactionsRoot](../README.md#blocktransactionsroot)_
 
 Defined in index.d.ts:277
 
-___
+---
 
 ### `Optional` uncles
 
-• **uncles**? : *[UncleHashes](../README.md#unclehashes)*
+• **uncles**? : _[UncleHashes](../README.md#unclehashes)_
 
 Defined in index.d.ts:289

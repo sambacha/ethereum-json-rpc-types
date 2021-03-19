@@ -6,11 +6,11 @@ The merkle proofs of the specified account connecting them to the blockhash of t
 
 ## Hierarchy
 
-* **ProofAccount**
+- **ProofAccount**
 
 ## Indexable
 
-* \[ **k**: *string*\]: any
+- \[ **k**: _string_\]: any
 
 The merkle proofs of the specified account connecting them to the blockhash of the block specified
 
@@ -18,66 +18,66 @@ The merkle proofs of the specified account connecting them to the blockhash of t
 
 ### Properties
 
-* [accountProof](proofaccount.md#optional-accountproof)
-* [address](proofaccount.md#optional-address)
-* [balance](proofaccount.md#optional-balance)
-* [codeHash](proofaccount.md#optional-codehash)
-* [nonce](proofaccount.md#optional-nonce)
-* [storageHash](proofaccount.md#optional-storagehash)
-* [storageProof](proofaccount.md#optional-storageproof)
+- [accountProof](proofaccount.md#optional-accountproof)
+- [address](proofaccount.md#optional-address)
+- [balance](proofaccount.md#optional-balance)
+- [codeHash](proofaccount.md#optional-codehash)
+- [nonce](proofaccount.md#optional-nonce)
+- [storageHash](proofaccount.md#optional-storagehash)
+- [storageProof](proofaccount.md#optional-storageproof)
 
 ## Properties
 
 ### `Optional` accountProof
 
-• **accountProof**? : *[ProofNodes](../README.md#proofnodes)*
+• **accountProof**? : _[ProofNodes](../README.md#proofnodes)_
 
 Defined in index.d.ts:468
 
-___
+---
 
 ### `Optional` address
 
-• **address**? : *[ProofAccountAddress](../README.md#proofaccountaddress)*
+• **address**? : _[ProofAccountAddress](../README.md#proofaccountaddress)_
 
 Defined in index.d.ts:467
 
-___
+---
 
 ### `Optional` balance
 
-• **balance**? : *[ProofAccountBalance](../README.md#proofaccountbalance)*
+• **balance**? : _[ProofAccountBalance](../README.md#proofaccountbalance)_
 
 Defined in index.d.ts:469
 
-___
+---
 
 ### `Optional` codeHash
 
-• **codeHash**? : *[ProofAccountCodeHash](../README.md#proofaccountcodehash)*
+• **codeHash**? : _[ProofAccountCodeHash](../README.md#proofaccountcodehash)_
 
 Defined in index.d.ts:470
 
-___
+---
 
 ### `Optional` nonce
 
-• **nonce**? : *[ProofAccountNonce](../README.md#proofaccountnonce)*
+• **nonce**? : _[ProofAccountNonce](../README.md#proofaccountnonce)_
 
 Defined in index.d.ts:471
 
-___
+---
 
 ### `Optional` storageHash
 
-• **storageHash**? : *[ProofAccountStorageHash](../README.md#proofaccountstoragehash)*
+• **storageHash**? : _[ProofAccountStorageHash](../README.md#proofaccountstoragehash)_
 
 Defined in index.d.ts:472
 
-___
+---
 
 ### `Optional` storageProof
 
-• **storageProof**? : *[StorageProofSet](../README.md#storageproofset)*
+• **storageProof**? : _[StorageProofSet](../README.md#storageproofset)_
 
 Defined in index.d.ts:473

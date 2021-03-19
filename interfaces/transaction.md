@@ -4,139 +4,139 @@
 
 ## Hierarchy
 
-* **Transaction**
+- **Transaction**
 
 ## Indexable
 
-* \[ **k**: *string*\]: any
+- \[ **k**: _string_\]: any
 
 ## Index
 
 ### Properties
 
-* [blockHash](transaction.md#optional-blockhash)
-* [blockNumber](transaction.md#optional-blocknumber)
-* [from](transaction.md#optional-from)
-* [gas](transaction.md#gas)
-* [gasPrice](transaction.md#gasprice)
-* [hash](transaction.md#optional-hash)
-* [input](transaction.md#optional-input)
-* [nonce](transaction.md#nonce)
-* [r](transaction.md#optional-r)
-* [s](transaction.md#optional-s)
-* [to](transaction.md#optional-to)
-* [transactionIndex](transaction.md#optional-transactionindex)
-* [v](transaction.md#optional-v)
-* [value](transaction.md#optional-value)
+- [blockHash](transaction.md#optional-blockhash)
+- [blockNumber](transaction.md#optional-blocknumber)
+- [from](transaction.md#optional-from)
+- [gas](transaction.md#gas)
+- [gasPrice](transaction.md#gasprice)
+- [hash](transaction.md#optional-hash)
+- [input](transaction.md#optional-input)
+- [nonce](transaction.md#nonce)
+- [r](transaction.md#optional-r)
+- [s](transaction.md#optional-s)
+- [to](transaction.md#optional-to)
+- [transactionIndex](transaction.md#optional-transactionindex)
+- [v](transaction.md#optional-v)
+- [value](transaction.md#optional-value)
 
 ## Properties
 
 ### `Optional` blockHash
 
-• **blockHash**? : *[BlockHashOrNull](../README.md#blockhashornull)*
+• **blockHash**? : _[BlockHashOrNull](../README.md#blockhashornull)_
 
 Defined in index.d.ts:230
 
-___
+---
 
 ### `Optional` blockNumber
 
-• **blockNumber**? : *[BlockNumberOrNull](../README.md#blocknumberornull)*
+• **blockNumber**? : _[BlockNumberOrNull](../README.md#blocknumberornull)_
 
 Defined in index.d.ts:231
 
-___
+---
 
 ### `Optional` from
 
-• **from**? : *[From](../README.md#from)*
+• **from**? : _[From](../README.md#from)_
 
 Defined in index.d.ts:232
 
-___
+---
 
-###  gas
+### gas
 
-• **gas**: *[TransactionGas](../README.md#transactiongas)*
+• **gas**: _[TransactionGas](../README.md#transactiongas)_
 
 Defined in index.d.ts:233
 
-___
+---
 
-###  gasPrice
+### gasPrice
 
-• **gasPrice**: *[TransactionGasPrice](../README.md#transactiongasprice)*
+• **gasPrice**: _[TransactionGasPrice](../README.md#transactiongasprice)_
 
 Defined in index.d.ts:234
 
-___
+---
 
 ### `Optional` hash
 
-• **hash**? : *[TransactionHash](../README.md#transactionhash)*
+• **hash**? : _[TransactionHash](../README.md#transactionhash)_
 
 Defined in index.d.ts:235
 
-___
+---
 
 ### `Optional` input
 
-• **input**? : *[TransactionInput](../README.md#transactioninput)*
+• **input**? : _[TransactionInput](../README.md#transactioninput)_
 
 Defined in index.d.ts:236
 
-___
+---
 
-###  nonce
+### nonce
 
-• **nonce**: *[TransactionNonce](../README.md#transactionnonce)*
+• **nonce**: _[TransactionNonce](../README.md#transactionnonce)_
 
 Defined in index.d.ts:237
 
-___
+---
 
 ### `Optional` r
 
-• **r**? : *[TransactionSigR](../README.md#transactionsigr)*
+• **r**? : _[TransactionSigR](../README.md#transactionsigr)_
 
 Defined in index.d.ts:242
 
-___
+---
 
 ### `Optional` s
 
-• **s**? : *[TransactionSigS](../README.md#transactionsigs)*
+• **s**? : _[TransactionSigS](../README.md#transactionsigs)_
 
 Defined in index.d.ts:243
 
-___
+---
 
 ### `Optional` to
 
-• **to**? : *[To](../README.md#to)*
+• **to**? : _[To](../README.md#to)_
 
 Defined in index.d.ts:238
 
-___
+---
 
 ### `Optional` transactionIndex
 
-• **transactionIndex**? : *[TransactionIndex](../README.md#transactionindex)*
+• **transactionIndex**? : _[TransactionIndex](../README.md#transactionindex)_
 
 Defined in index.d.ts:239
 
-___
+---
 
 ### `Optional` v
 
-• **v**? : *[TransactionSigV](../README.md#transactionsigv)*
+• **v**? : _[TransactionSigV](../README.md#transactionsigv)_
 
 Defined in index.d.ts:241
 
-___
+---
 
 ### `Optional` value
 
-• **value**? : *[TransactionValue](../README.md#transactionvalue)*
+• **value**? : _[TransactionValue](../README.md#transactionvalue)_
 
 Defined in index.d.ts:240

@@ -6,11 +6,11 @@ The receipt of a transaction
 
 ## Hierarchy
 
-* **Receipt**
+- **Receipt**
 
 ## Indexable
 
-* \[ **k**: *string*\]: any
+- \[ **k**: _string_\]: any
 
 The receipt of a transaction
 
@@ -18,120 +18,120 @@ The receipt of a transaction
 
 ### Properties
 
-* [blockHash](receipt.md#blockhash)
-* [blockNumber](receipt.md#blocknumber)
-* [contractAddress](receipt.md#contractaddress)
-* [cumulativeGasUsed](receipt.md#cumulativegasused)
-* [from](receipt.md#from)
-* [gasUsed](receipt.md#gasused)
-* [logs](receipt.md#logs)
-* [logsBloom](receipt.md#logsbloom)
-* [postTransactionState](receipt.md#optional-posttransactionstate)
-* [status](receipt.md#optional-status)
-* [to](receipt.md#to)
-* [transactionHash](receipt.md#transactionhash)
-* [transactionIndex](receipt.md#transactionindex)
+- [blockHash](receipt.md#blockhash)
+- [blockNumber](receipt.md#blocknumber)
+- [contractAddress](receipt.md#contractaddress)
+- [cumulativeGasUsed](receipt.md#cumulativegasused)
+- [from](receipt.md#from)
+- [gasUsed](receipt.md#gasused)
+- [logs](receipt.md#logs)
+- [logsBloom](receipt.md#logsbloom)
+- [postTransactionState](receipt.md#optional-posttransactionstate)
+- [status](receipt.md#optional-status)
+- [to](receipt.md#to)
+- [transactionHash](receipt.md#transactionhash)
+- [transactionIndex](receipt.md#transactionindex)
 
 ## Properties
 
-###  blockHash
+### blockHash
 
-• **blockHash**: *[BlockHash](../README.md#blockhash)*
+• **blockHash**: _[BlockHash](../README.md#blockhash)_
 
 Defined in index.d.ts:381
 
-___
+---
 
-###  blockNumber
+### blockNumber
 
-• **blockNumber**: *[BlockNumber](../README.md#blocknumber)*
+• **blockNumber**: _[BlockNumber](../README.md#blocknumber)_
 
 Defined in index.d.ts:382
 
-___
+---
 
-###  contractAddress
+### contractAddress
 
-• **contractAddress**: *[ReceiptContractAddress](../README.md#receiptcontractaddress)*
+• **contractAddress**: _[ReceiptContractAddress](../README.md#receiptcontractaddress)_
 
 Defined in index.d.ts:383
 
-___
+---
 
-###  cumulativeGasUsed
+### cumulativeGasUsed
 
-• **cumulativeGasUsed**: *[ReceiptCumulativeGasUsed](../README.md#receiptcumulativegasused)*
+• **cumulativeGasUsed**: _[ReceiptCumulativeGasUsed](../README.md#receiptcumulativegasused)_
 
 Defined in index.d.ts:384
 
-___
+---
 
-###  from
+### from
 
-• **from**: *[From](../README.md#from)*
+• **from**: _[From](../README.md#from)_
 
 Defined in index.d.ts:385
 
-___
+---
 
-###  gasUsed
+### gasUsed
 
-• **gasUsed**: *[ReceiptGasUsed](../README.md#receiptgasused)*
+• **gasUsed**: _[ReceiptGasUsed](../README.md#receiptgasused)_
 
 Defined in index.d.ts:386
 
-___
+---
 
-###  logs
+### logs
 
-• **logs**: *[Logs](../README.md#logs)*
+• **logs**: _[Logs](../README.md#logs)_
 
 Defined in index.d.ts:387
 
-___
+---
 
-###  logsBloom
+### logsBloom
 
-• **logsBloom**: *[BloomFilter](../README.md#bloomfilter)*
+• **logsBloom**: _[BloomFilter](../README.md#bloomfilter)_
 
 Defined in index.d.ts:388
 
-___
+---
 
 ### `Optional` postTransactionState
 
-• **postTransactionState**? : *[ReceiptPostTransactionState](../README.md#receiptposttransactionstate)*
+• **postTransactionState**? : _[ReceiptPostTransactionState](../README.md#receiptposttransactionstate)_
 
 Defined in index.d.ts:392
 
-___
+---
 
 ### `Optional` status
 
-• **status**? : *[ReceiptStatus](../README.md#receiptstatus)*
+• **status**? : _[ReceiptStatus](../README.md#receiptstatus)_
 
 Defined in index.d.ts:393
 
-___
+---
 
-###  to
+### to
 
-• **to**: *[To](../README.md#to)*
+• **to**: _[To](../README.md#to)_
 
 Defined in index.d.ts:389
 
-___
+---
 
-###  transactionHash
+### transactionHash
 
-• **transactionHash**: *[TransactionHash](../README.md#transactionhash)*
+• **transactionHash**: _[TransactionHash](../README.md#transactionhash)_
 
 Defined in index.d.ts:390
 
-___
+---
 
-###  transactionIndex
+### transactionIndex
 
-• **transactionIndex**: *[TransactionIndex](../README.md#transactionindex)*
+• **transactionIndex**: _[TransactionIndex](../README.md#transactionindex)_
 
 Defined in index.d.ts:391

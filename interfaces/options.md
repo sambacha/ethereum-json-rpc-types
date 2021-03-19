@@ -4,19 +4,19 @@
 
 ## Hierarchy
 
-* **Options**
+- **Options**
 
 ## Index
 
 ### Properties
 
-* [transport](options.md#transport)
+- [transport](options.md#transport)
 
 ## Properties
 
-###  transport
+### transport
 
-• **transport**: *object*
+• **transport**: _object_
 
 Defined in index.d.ts:674
 

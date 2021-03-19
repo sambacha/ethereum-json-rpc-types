@@ -6,11 +6,11 @@ An indexed event generated during a transaction
 
 ## Hierarchy
 
-* **Log**
+- **Log**
 
 ## Indexable
 
-* \[ **k**: *string*\]: any
+- \[ **k**: _string_\]: any
 
 An indexed event generated during a transaction
 
@@ -18,84 +18,84 @@ An indexed event generated during a transaction
 
 ### Properties
 
-* [address](log.md#optional-address)
-* [blockHash](log.md#optional-blockhash)
-* [blockNumber](log.md#optional-blocknumber)
-* [data](log.md#optional-data)
-* [logIndex](log.md#optional-logindex)
-* [removed](log.md#optional-removed)
-* [topics](log.md#optional-topics)
-* [transactionHash](log.md#optional-transactionhash)
-* [transactionIndex](log.md#optional-transactionindex)
+- [address](log.md#optional-address)
+- [blockHash](log.md#optional-blockhash)
+- [blockNumber](log.md#optional-blocknumber)
+- [data](log.md#optional-data)
+- [logIndex](log.md#optional-logindex)
+- [removed](log.md#optional-removed)
+- [topics](log.md#optional-topics)
+- [transactionHash](log.md#optional-transactionhash)
+- [transactionIndex](log.md#optional-transactionindex)
 
 ## Properties
 
 ### `Optional` address
 
-• **address**? : *[LogAddress](../README.md#logaddress)*
+• **address**? : _[LogAddress](../README.md#logaddress)_
 
 Defined in index.d.ts:322
 
-___
+---
 
 ### `Optional` blockHash
 
-• **blockHash**? : *[BlockHash](../README.md#blockhash)*
+• **blockHash**? : _[BlockHash](../README.md#blockhash)_
 
 Defined in index.d.ts:323
 
-___
+---
 
 ### `Optional` blockNumber
 
-• **blockNumber**? : *[BlockNumber](../README.md#blocknumber)*
+• **blockNumber**? : _[BlockNumber](../README.md#blocknumber)_
 
 Defined in index.d.ts:324
 
-___
+---
 
 ### `Optional` data
 
-• **data**? : *[LogData](../README.md#logdata)*
+• **data**? : _[LogData](../README.md#logdata)_
 
 Defined in index.d.ts:325
 
-___
+---
 
 ### `Optional` logIndex
 
-• **logIndex**? : *[LogIndex](../README.md#logindex)*
+• **logIndex**? : _[LogIndex](../README.md#logindex)_
 
 Defined in index.d.ts:326
 
-___
+---
 
 ### `Optional` removed
 
-• **removed**? : *[LogIsRemoved](../README.md#logisremoved)*
+• **removed**? : _[LogIsRemoved](../README.md#logisremoved)_
 
 Defined in index.d.ts:327
 
-___
+---
 
 ### `Optional` topics
 
-• **topics**? : *[LogTopics](../README.md#logtopics)*
+• **topics**? : _[LogTopics](../README.md#logtopics)_
 
 Defined in index.d.ts:328
 
-___
+---
 
 ### `Optional` transactionHash
 
-• **transactionHash**? : *[TransactionHash](../README.md#transactionhash)*
+• **transactionHash**? : _[TransactionHash](../README.md#transactionhash)_
 
 Defined in index.d.ts:329
 
-___
+---
 
 ### `Optional` transactionIndex
 
-• **transactionIndex**? : *[TransactionIndex](../README.md#transactionindex)*
+• **transactionIndex**? : _[TransactionIndex](../README.md#transactionindex)_
 
 Defined in index.d.ts:330

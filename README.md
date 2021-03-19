@@ -2,1885 +2,1884 @@
 
 > typescript types for JSON-RPC 2.0
 
-
-## Overview 
+## Overview
 
 ### Classes
 
-* [EthereumJSONRPC](classes/ethereumjsonrpc.md)
+- [EthereumJSONRPC](classes/ethereumjsonrpc.md)
 
 ### Interfaces
 
-* [Block](interfaces/block.md)
-* [Filter](interfaces/filter.md)
-* [Log](interfaces/log.md)
-* [Options](interfaces/options.md)
-* [ProofAccount](interfaces/proofaccount.md)
-* [Receipt](interfaces/receipt.md)
-* [StorageProof](interfaces/storageproof.md)
-* [SyncingData](interfaces/syncingdata.md)
-* [Transaction](interfaces/transaction.md)
+- [Block](interfaces/block.md)
+- [Filter](interfaces/filter.md)
+- [Log](interfaces/log.md)
+- [Options](interfaces/options.md)
+- [ProofAccount](interfaces/proofaccount.md)
+- [Receipt](interfaces/receipt.md)
+- [StorageProof](interfaces/storageproof.md)
+- [SyncingData](interfaces/syncingdata.md)
+- [Transaction](interfaces/transaction.md)
 
 ### Type aliases
 
-* [Address](README.md#address)
-* [AddressOrNull](README.md#addressornull)
-* [Addresses](README.md#addresses)
-* [BlockDifficulty](README.md#blockdifficulty)
-* [BlockExtraData](README.md#blockextradata)
-* [BlockGasLimit](README.md#blockgaslimit)
-* [BlockGasUsed](README.md#blockgasused)
-* [BlockHash](README.md#blockhash)
-* [BlockHashOrNull](README.md#blockhashornull)
-* [BlockLogsBloom](README.md#blocklogsbloom)
-* [BlockNumber](README.md#blocknumber)
-* [BlockNumberOrNull](README.md#blocknumberornull)
-* [BlockNumberOrTag](README.md#blocknumberortag)
-* [BlockNumberTag](README.md#blocknumbertag)
-* [BlockOrNull](README.md#blockornull)
-* [BlockReceiptsRoot](README.md#blockreceiptsroot)
-* [BlockShaUncles](README.md#blockshauncles)
-* [BlockSize](README.md#blocksize)
-* [BlockStateRoot](README.md#blockstateroot)
-* [BlockTimeStamp](README.md#blocktimestamp)
-* [BlockTotalDifficulty](README.md#blocktotaldifficulty)
-* [BlockTransactionsRoot](README.md#blocktransactionsroot)
-* [BloomFilter](README.md#bloomfilter)
-* [BooleanVyG3AETh](README.md#booleanvyg3aeth)
-* [Bytes](README.md#bytes)
-* [ChainId](README.md#chainid)
-* [ClientVersion](README.md#clientversion)
-* [Data](README.md#data)
-* [DataWord](README.md#dataword)
-* [Difficulty](README.md#difficulty)
-* [EthBlockNumber](README.md#ethblocknumber)
-* [EthCall](README.md#ethcall)
-* [EthChainId](README.md#ethchainid)
-* [EthCoinbase](README.md#ethcoinbase)
-* [EthEstimateGas](README.md#ethestimategas)
-* [EthGasPrice](README.md#ethgasprice)
-* [EthGetBalance](README.md#ethgetbalance)
-* [EthGetBlockByHash](README.md#ethgetblockbyhash)
-* [EthGetBlockByNumber](README.md#ethgetblockbynumber)
-* [EthGetBlockTransactionCountByHash](README.md#ethgetblocktransactioncountbyhash)
-* [EthGetBlockTransactionCountByNumber](README.md#ethgetblocktransactioncountbynumber)
-* [EthGetCode](README.md#ethgetcode)
-* [EthGetFilterChanges](README.md#ethgetfilterchanges)
-* [EthGetFilterLogs](README.md#ethgetfilterlogs)
-* [EthGetLogs](README.md#ethgetlogs)
-* [EthGetProof](README.md#ethgetproof)
-* [EthGetRawTransactionByBlockHashAndIndex](README.md#ethgetrawtransactionbyblockhashandindex)
-* [EthGetRawTransactionByBlockNumberAndIndex](README.md#ethgetrawtransactionbyblocknumberandindex)
-* [EthGetRawTransactionByHash](README.md#ethgetrawtransactionbyhash)
-* [EthGetStorageAt](README.md#ethgetstorageat)
-* [EthGetTransactionByBlockHashAndIndex](README.md#ethgettransactionbyblockhashandindex)
-* [EthGetTransactionByBlockNumberAndIndex](README.md#ethgettransactionbyblocknumberandindex)
-* [EthGetTransactionByHash](README.md#ethgettransactionbyhash)
-* [EthGetTransactionCount](README.md#ethgettransactioncount)
-* [EthGetTransactionReceipt](README.md#ethgettransactionreceipt)
-* [EthGetUncleByBlockHashAndIndex](README.md#ethgetunclebyblockhashandindex)
-* [EthGetUncleByBlockNumberAndIndex](README.md#ethgetunclebyblocknumberandindex)
-* [EthGetUncleCountByBlockHash](README.md#ethgetunclecountbyblockhash)
-* [EthGetUncleCountByBlockNumber](README.md#ethgetunclecountbyblocknumber)
-* [EthGetWork](README.md#ethgetwork)
-* [EthHashrate](README.md#ethhashrate)
-* [EthMining](README.md#ethmining)
-* [EthNewBlockFilter](README.md#ethnewblockfilter)
-* [EthNewFilter](README.md#ethnewfilter)
-* [EthNewPendingTransactionFilter](README.md#ethnewpendingtransactionfilter)
-* [EthPendingTransactions](README.md#ethpendingtransactions)
-* [EthProtocolVersion](README.md#ethprotocolversion)
-* [EthSendRawTransaction](README.md#ethsendrawtransaction)
-* [EthSubmitHashrate](README.md#ethsubmithashrate)
-* [EthSubmitWork](README.md#ethsubmitwork)
-* [EthSyncing](README.md#ethsyncing)
-* [EthUninstallFilter](README.md#ethuninstallfilter)
-* [FilterId](README.md#filterid)
-* [From](README.md#from)
-* [GasPriceResult](README.md#gaspriceresult)
-* [GetWorkResults](README.md#getworkresults)
-* [Integer](README.md#integer)
-* [IntegerOrNull](README.md#integerornull)
-* [IsNetListening](README.md#isnetlistening)
-* [IsSyncingResult](README.md#issyncingresult)
-* [IsTransactionsIncluded](README.md#istransactionsincluded)
-* [Keccak](README.md#keccak)
-* [LogAddress](README.md#logaddress)
-* [LogData](README.md#logdata)
-* [LogIndex](README.md#logindex)
-* [LogIsRemoved](README.md#logisremoved)
-* [LogResult](README.md#logresult)
-* [LogTopics](README.md#logtopics)
-* [Logs](README.md#logs)
-* [MixHash](README.md#mixhash)
-* [NetListening](README.md#netlistening)
-* [NetPeerCount](README.md#netpeercount)
-* [NetVersion](README.md#netversion)
-* [NetworkId](README.md#networkid)
-* [Nonce](README.md#nonce)
-* [NonceOrNull](README.md#nonceornull)
-* [Null](README.md#null)
-* [NumConnectedPeers](README.md#numconnectedpeers)
-* [OneOrArrayOfAddresses](README.md#oneorarrayofaddresses)
-* [Position](README.md#position)
-* [PowHash](README.md#powhash)
-* [ProofAccountAddress](README.md#proofaccountaddress)
-* [ProofAccountBalance](README.md#proofaccountbalance)
-* [ProofAccountCodeHash](README.md#proofaccountcodehash)
-* [ProofAccountNonce](README.md#proofaccountnonce)
-* [ProofAccountOrNull](README.md#proofaccountornull)
-* [ProofAccountStorageHash](README.md#proofaccountstoragehash)
-* [ProofNode](README.md#proofnode)
-* [ProofNodes](README.md#proofnodes)
-* [ReceiptContractAddress](README.md#receiptcontractaddress)
-* [ReceiptCumulativeGasUsed](README.md#receiptcumulativegasused)
-* [ReceiptGasUsed](README.md#receiptgasused)
-* [ReceiptPostTransactionState](README.md#receiptposttransactionstate)
-* [ReceiptStatus](README.md#receiptstatus)
-* [SeedHash](README.md#seedhash)
-* [SetOfLogs](README.md#setoflogs)
-* [StorageKeys](README.md#storagekeys)
-* [StorageProofKey](README.md#storageproofkey)
-* [StorageProofSet](README.md#storageproofset)
-* [StorageProofValue](README.md#storageproofvalue)
-* [SyncingDataCurrentBlock](README.md#syncingdatacurrentblock)
-* [SyncingDataHighestBlock](README.md#syncingdatahighestblock)
-* [SyncingDataKnownStates](README.md#syncingdataknownstates)
-* [SyncingDataPulledStates](README.md#syncingdatapulledstates)
-* [SyncingDataStartingBlock](README.md#syncingdatastartingblock)
-* [To](README.md#to)
-* [Topic](README.md#topic)
-* [TransactionGas](README.md#transactiongas)
-* [TransactionGasPrice](README.md#transactiongasprice)
-* [TransactionHash](README.md#transactionhash)
-* [TransactionIndex](README.md#transactionindex)
-* [TransactionInput](README.md#transactioninput)
-* [TransactionNonce](README.md#transactionnonce)
-* [TransactionOrNull](README.md#transactionornull)
-* [TransactionOrTransactionHash](README.md#transactionortransactionhash)
-* [TransactionReceiptOrNull](README.md#transactionreceiptornull)
-* [TransactionSigR](README.md#transactionsigr)
-* [TransactionSigS](README.md#transactionsigs)
-* [TransactionSigV](README.md#transactionsigv)
-* [TransactionValue](README.md#transactionvalue)
-* [Transactions](README.md#transactions)
-* [TransactionsOrHashes](README.md#transactionsorhashes)
-* [UncleHash](README.md#unclehash)
-* [UncleHashes](README.md#unclehashes)
-* [Web3ClientVersion](README.md#web3clientversion)
-* [Web3Sha3](README.md#web3sha3)
+- [Address](README.md#address)
+- [AddressOrNull](README.md#addressornull)
+- [Addresses](README.md#addresses)
+- [BlockDifficulty](README.md#blockdifficulty)
+- [BlockExtraData](README.md#blockextradata)
+- [BlockGasLimit](README.md#blockgaslimit)
+- [BlockGasUsed](README.md#blockgasused)
+- [BlockHash](README.md#blockhash)
+- [BlockHashOrNull](README.md#blockhashornull)
+- [BlockLogsBloom](README.md#blocklogsbloom)
+- [BlockNumber](README.md#blocknumber)
+- [BlockNumberOrNull](README.md#blocknumberornull)
+- [BlockNumberOrTag](README.md#blocknumberortag)
+- [BlockNumberTag](README.md#blocknumbertag)
+- [BlockOrNull](README.md#blockornull)
+- [BlockReceiptsRoot](README.md#blockreceiptsroot)
+- [BlockShaUncles](README.md#blockshauncles)
+- [BlockSize](README.md#blocksize)
+- [BlockStateRoot](README.md#blockstateroot)
+- [BlockTimeStamp](README.md#blocktimestamp)
+- [BlockTotalDifficulty](README.md#blocktotaldifficulty)
+- [BlockTransactionsRoot](README.md#blocktransactionsroot)
+- [BloomFilter](README.md#bloomfilter)
+- [BooleanVyG3AETh](README.md#booleanvyg3aeth)
+- [Bytes](README.md#bytes)
+- [ChainId](README.md#chainid)
+- [ClientVersion](README.md#clientversion)
+- [Data](README.md#data)
+- [DataWord](README.md#dataword)
+- [Difficulty](README.md#difficulty)
+- [EthBlockNumber](README.md#ethblocknumber)
+- [EthCall](README.md#ethcall)
+- [EthChainId](README.md#ethchainid)
+- [EthCoinbase](README.md#ethcoinbase)
+- [EthEstimateGas](README.md#ethestimategas)
+- [EthGasPrice](README.md#ethgasprice)
+- [EthGetBalance](README.md#ethgetbalance)
+- [EthGetBlockByHash](README.md#ethgetblockbyhash)
+- [EthGetBlockByNumber](README.md#ethgetblockbynumber)
+- [EthGetBlockTransactionCountByHash](README.md#ethgetblocktransactioncountbyhash)
+- [EthGetBlockTransactionCountByNumber](README.md#ethgetblocktransactioncountbynumber)
+- [EthGetCode](README.md#ethgetcode)
+- [EthGetFilterChanges](README.md#ethgetfilterchanges)
+- [EthGetFilterLogs](README.md#ethgetfilterlogs)
+- [EthGetLogs](README.md#ethgetlogs)
+- [EthGetProof](README.md#ethgetproof)
+- [EthGetRawTransactionByBlockHashAndIndex](README.md#ethgetrawtransactionbyblockhashandindex)
+- [EthGetRawTransactionByBlockNumberAndIndex](README.md#ethgetrawtransactionbyblocknumberandindex)
+- [EthGetRawTransactionByHash](README.md#ethgetrawtransactionbyhash)
+- [EthGetStorageAt](README.md#ethgetstorageat)
+- [EthGetTransactionByBlockHashAndIndex](README.md#ethgettransactionbyblockhashandindex)
+- [EthGetTransactionByBlockNumberAndIndex](README.md#ethgettransactionbyblocknumberandindex)
+- [EthGetTransactionByHash](README.md#ethgettransactionbyhash)
+- [EthGetTransactionCount](README.md#ethgettransactioncount)
+- [EthGetTransactionReceipt](README.md#ethgettransactionreceipt)
+- [EthGetUncleByBlockHashAndIndex](README.md#ethgetunclebyblockhashandindex)
+- [EthGetUncleByBlockNumberAndIndex](README.md#ethgetunclebyblocknumberandindex)
+- [EthGetUncleCountByBlockHash](README.md#ethgetunclecountbyblockhash)
+- [EthGetUncleCountByBlockNumber](README.md#ethgetunclecountbyblocknumber)
+- [EthGetWork](README.md#ethgetwork)
+- [EthHashrate](README.md#ethhashrate)
+- [EthMining](README.md#ethmining)
+- [EthNewBlockFilter](README.md#ethnewblockfilter)
+- [EthNewFilter](README.md#ethnewfilter)
+- [EthNewPendingTransactionFilter](README.md#ethnewpendingtransactionfilter)
+- [EthPendingTransactions](README.md#ethpendingtransactions)
+- [EthProtocolVersion](README.md#ethprotocolversion)
+- [EthSendRawTransaction](README.md#ethsendrawtransaction)
+- [EthSubmitHashrate](README.md#ethsubmithashrate)
+- [EthSubmitWork](README.md#ethsubmitwork)
+- [EthSyncing](README.md#ethsyncing)
+- [EthUninstallFilter](README.md#ethuninstallfilter)
+- [FilterId](README.md#filterid)
+- [From](README.md#from)
+- [GasPriceResult](README.md#gaspriceresult)
+- [GetWorkResults](README.md#getworkresults)
+- [Integer](README.md#integer)
+- [IntegerOrNull](README.md#integerornull)
+- [IsNetListening](README.md#isnetlistening)
+- [IsSyncingResult](README.md#issyncingresult)
+- [IsTransactionsIncluded](README.md#istransactionsincluded)
+- [Keccak](README.md#keccak)
+- [LogAddress](README.md#logaddress)
+- [LogData](README.md#logdata)
+- [LogIndex](README.md#logindex)
+- [LogIsRemoved](README.md#logisremoved)
+- [LogResult](README.md#logresult)
+- [LogTopics](README.md#logtopics)
+- [Logs](README.md#logs)
+- [MixHash](README.md#mixhash)
+- [NetListening](README.md#netlistening)
+- [NetPeerCount](README.md#netpeercount)
+- [NetVersion](README.md#netversion)
+- [NetworkId](README.md#networkid)
+- [Nonce](README.md#nonce)
+- [NonceOrNull](README.md#nonceornull)
+- [Null](README.md#null)
+- [NumConnectedPeers](README.md#numconnectedpeers)
+- [OneOrArrayOfAddresses](README.md#oneorarrayofaddresses)
+- [Position](README.md#position)
+- [PowHash](README.md#powhash)
+- [ProofAccountAddress](README.md#proofaccountaddress)
+- [ProofAccountBalance](README.md#proofaccountbalance)
+- [ProofAccountCodeHash](README.md#proofaccountcodehash)
+- [ProofAccountNonce](README.md#proofaccountnonce)
+- [ProofAccountOrNull](README.md#proofaccountornull)
+- [ProofAccountStorageHash](README.md#proofaccountstoragehash)
+- [ProofNode](README.md#proofnode)
+- [ProofNodes](README.md#proofnodes)
+- [ReceiptContractAddress](README.md#receiptcontractaddress)
+- [ReceiptCumulativeGasUsed](README.md#receiptcumulativegasused)
+- [ReceiptGasUsed](README.md#receiptgasused)
+- [ReceiptPostTransactionState](README.md#receiptposttransactionstate)
+- [ReceiptStatus](README.md#receiptstatus)
+- [SeedHash](README.md#seedhash)
+- [SetOfLogs](README.md#setoflogs)
+- [StorageKeys](README.md#storagekeys)
+- [StorageProofKey](README.md#storageproofkey)
+- [StorageProofSet](README.md#storageproofset)
+- [StorageProofValue](README.md#storageproofvalue)
+- [SyncingDataCurrentBlock](README.md#syncingdatacurrentblock)
+- [SyncingDataHighestBlock](README.md#syncingdatahighestblock)
+- [SyncingDataKnownStates](README.md#syncingdataknownstates)
+- [SyncingDataPulledStates](README.md#syncingdatapulledstates)
+- [SyncingDataStartingBlock](README.md#syncingdatastartingblock)
+- [To](README.md#to)
+- [Topic](README.md#topic)
+- [TransactionGas](README.md#transactiongas)
+- [TransactionGasPrice](README.md#transactiongasprice)
+- [TransactionHash](README.md#transactionhash)
+- [TransactionIndex](README.md#transactionindex)
+- [TransactionInput](README.md#transactioninput)
+- [TransactionNonce](README.md#transactionnonce)
+- [TransactionOrNull](README.md#transactionornull)
+- [TransactionOrTransactionHash](README.md#transactionortransactionhash)
+- [TransactionReceiptOrNull](README.md#transactionreceiptornull)
+- [TransactionSigR](README.md#transactionsigr)
+- [TransactionSigS](README.md#transactionsigs)
+- [TransactionSigV](README.md#transactionsigv)
+- [TransactionValue](README.md#transactionvalue)
+- [Transactions](README.md#transactions)
+- [TransactionsOrHashes](README.md#transactionsorhashes)
+- [UncleHash](README.md#unclehash)
+- [UncleHashes](README.md#unclehashes)
+- [Web3ClientVersion](README.md#web3clientversion)
+- [Web3Sha3](README.md#web3sha3)
 
 ## Type aliases
 
-###  Address
+### Address
 
-Ƭ **Address**: *string*
+Ƭ **Address**: _string_
 
 Defined in index.d.ts:69
 
-___
+---
 
-###  AddressOrNull
+### AddressOrNull
 
-Ƭ **AddressOrNull**: *[Address](README.md#address) | [Null](README.md#null)*
+Ƭ **AddressOrNull**: _[Address](README.md#address) | [Null](README.md#null)_
 
 Defined in index.d.ts:186
 
-___
+---
 
-###  Addresses
+### Addresses
 
-Ƭ **Addresses**: *[Address](README.md#address)[]*
+Ƭ **Addresses**: _[Address](README.md#address)[]_
 
 Defined in index.d.ts:123
 
 List of contract addresses from which to monitor events
 
-___
+---
 
-###  BlockDifficulty
+### BlockDifficulty
 
-Ƭ **BlockDifficulty**: *string*
+Ƭ **BlockDifficulty**: _string_
 
 Defined in index.d.ts:192
 
 Integer of the difficulty for this block
 
-___
+---
 
-###  BlockExtraData
+### BlockExtraData
 
-Ƭ **BlockExtraData**: *string*
+Ƭ **BlockExtraData**: _string_
 
 Defined in index.d.ts:204
 
 The 'extra data' field of this block
 
-___
+---
 
-###  BlockGasLimit
+### BlockGasLimit
 
-Ƭ **BlockGasLimit**: *string*
+Ƭ **BlockGasLimit**: _string_
 
 Defined in index.d.ts:216
 
 The maximum gas allowed in this block
 
-___
+---
 
-###  BlockGasUsed
+### BlockGasUsed
 
-Ƭ **BlockGasUsed**: *string*
+Ƭ **BlockGasUsed**: _string_
 
 Defined in index.d.ts:222
 
 The total used gas by all transactions in this block
 
-___
+---
 
-###  BlockHash
+### BlockHash
 
-Ƭ **BlockHash**: *string*
+Ƭ **BlockHash**: _string_
 
 Defined in index.d.ts:148
 
 The hex representation of the Keccak 256 of the RLP encoded block
 
-___
+---
 
-###  BlockHashOrNull
+### BlockHashOrNull
 
-Ƭ **BlockHashOrNull**: *[Keccak](README.md#keccak) | [Null](README.md#null)*
+Ƭ **BlockHashOrNull**: _[Keccak](README.md#keccak) | [Null](README.md#null)_
 
 Defined in index.d.ts:20
 
 The block hash or null when its the pending block
 
-___
+---
 
-###  BlockLogsBloom
+### BlockLogsBloom
 
-Ƭ **BlockLogsBloom**: *string*
+Ƭ **BlockLogsBloom**: _string_
 
 Defined in index.d.ts:167
 
 The bloom filter for the logs of the block or null when its the pending block
 
-___
+---
 
-###  BlockNumber
+### BlockNumber
 
-Ƭ **BlockNumber**: *string*
+Ƭ **BlockNumber**: _string_
 
 Defined in index.d.ts:26
 
 The hex representation of the block's height
 
-___
+---
 
-###  BlockNumberOrNull
+### BlockNumberOrNull
 
-Ƭ **BlockNumberOrNull**: *[BlockNumber](README.md#blocknumber) | [Null](README.md#null)*
+Ƭ **BlockNumberOrNull**: _[BlockNumber](README.md#blocknumber) | [Null](README.md#null)_
 
 Defined in index.d.ts:32
 
 The block number or null when its the pending block
 
-___
+---
 
-###  BlockNumberOrTag
+### BlockNumberOrTag
 
-Ƭ **BlockNumberOrTag**: *[BlockNumber](README.md#blocknumber) | [BlockNumberTag](README.md#blocknumbertag)*
+Ƭ **BlockNumberOrTag**: _[BlockNumber](README.md#blocknumber) | [BlockNumberTag](README.md#blocknumbertag)_
 
 Defined in index.d.ts:539
 
-___
+---
 
-###  BlockNumberTag
+### BlockNumberTag
 
-Ƭ **BlockNumberTag**: *"earliest" | "latest" | "pending"*
+Ƭ **BlockNumberTag**: _"earliest" | "latest" | "pending"_
 
 Defined in index.d.ts:117
 
 The optional block height description
 
-___
+---
 
-###  BlockOrNull
+### BlockOrNull
 
-Ƭ **BlockOrNull**: *[Block](interfaces/block.md) | [Null](README.md#null)*
+Ƭ **BlockOrNull**: _[Block](interfaces/block.md) | [Null](README.md#null)_
 
 Defined in index.d.ts:606
 
-___
+---
 
-###  BlockReceiptsRoot
+### BlockReceiptsRoot
 
-Ƭ **BlockReceiptsRoot**: *string*
+Ƭ **BlockReceiptsRoot**: _string_
 
 Defined in index.d.ts:185
 
 The root of the receipts trie of the block
 
-___
+---
 
-###  BlockShaUncles
+### BlockShaUncles
 
-Ƭ **BlockShaUncles**: *string*
+Ƭ **BlockShaUncles**: _string_
 
 Defined in index.d.ts:161
 
 Keccak hash of the uncles data in the block
 
-___
+---
 
-###  BlockSize
+### BlockSize
 
-Ƭ **BlockSize**: *string*
+Ƭ **BlockSize**: _string_
 
 Defined in index.d.ts:210
 
 Integer the size of this block in bytes
 
-___
+---
 
-###  BlockStateRoot
+### BlockStateRoot
 
-Ƭ **BlockStateRoot**: *string*
+Ƭ **BlockStateRoot**: _string_
 
 Defined in index.d.ts:179
 
 The root of the final state trie of the block
 
-___
+---
 
-###  BlockTimeStamp
+### BlockTimeStamp
 
-Ƭ **BlockTimeStamp**: *string*
+Ƭ **BlockTimeStamp**: _string_
 
 Defined in index.d.ts:228
 
 The unix timestamp for when the block was collated
 
-___
+---
 
-###  BlockTotalDifficulty
+### BlockTotalDifficulty
 
-Ƭ **BlockTotalDifficulty**: *[Integer](README.md#integer) | [Null](README.md#null)*
+Ƭ **BlockTotalDifficulty**: _[Integer](README.md#integer) | [Null](README.md#null)_
 
 Defined in index.d.ts:198
 
 Integer of the total difficulty of the chain until this block
 
-___
+---
 
-###  BlockTransactionsRoot
+### BlockTransactionsRoot
 
-Ƭ **BlockTransactionsRoot**: *string*
+Ƭ **BlockTransactionsRoot**: _string_
 
 Defined in index.d.ts:173
 
 The root of the transactions trie of the block.
 
-___
+---
 
-###  BloomFilter
+### BloomFilter
 
-Ƭ **BloomFilter**: *string*
+Ƭ **BloomFilter**: _string_
 
 Defined in index.d.ts:362
 
 A 2048 bit bloom filter from the logs of the transaction. Each log sets 3 bits though taking the low-order 11 bits of each of the first three pairs of bytes in a Keccak 256 hash of the log's byte series
 
-___
+---
 
-###  BooleanVyG3AETh
+### BooleanVyG3AETh
 
-Ƭ **BooleanVyG3AETh**: *boolean*
+Ƭ **BooleanVyG3AETh**: _boolean_
 
 Defined in index.d.ts:537
 
-___
+---
 
-###  Bytes
+### Bytes
 
-Ƭ **Bytes**: *string*
+Ƭ **Bytes**: _string_
 
 Defined in index.d.ts:576
 
 Hex representation of a variable length byte array
 
-___
+---
 
-###  ChainId
+### ChainId
 
-Ƭ **ChainId**: *string*
+Ƭ **ChainId**: _string_
 
 Defined in index.d.ts:598
 
-___
+---
 
-###  ClientVersion
+### ClientVersion
 
-Ƭ **ClientVersion**: *string*
+Ƭ **ClientVersion**: _string_
 
 Defined in index.d.ts:589
 
-___
+---
 
-###  Data
+### Data
 
-Ƭ **Data**: *string*
+Ƭ **Data**: _string_
 
 Defined in index.d.ts:538
 
-___
+---
 
-###  DataWord
+### DataWord
 
-Ƭ **DataWord**: *string*
+Ƭ **DataWord**: _string_
 
 Defined in index.d.ts:582
 
 Hex representation of a 256 bit unit of data
 
-___
+---
 
-###  Difficulty
+### Difficulty
 
-Ƭ **Difficulty**: *string*
+Ƭ **Difficulty**: _string_
 
 Defined in index.d.ts:493
 
 The boundary condition ('target'), 2^256 / difficulty.
 
-___
+---
 
-###  EthBlockNumber
+### EthBlockNumber
 
-Ƭ **EthBlockNumber**: *function*
+Ƭ **EthBlockNumber**: _function_
 
 Defined in index.d.ts:631
 
 #### Type declaration:
 
-▸ (): *Promise‹[BlockNumberOrTag](README.md#blocknumberortag)›*
+▸ (): _Promise‹[BlockNumberOrTag](README.md#blocknumberortag)›_
 
-___
+---
 
-###  EthCall
+### EthCall
 
-Ƭ **EthCall**: *function*
+Ƭ **EthCall**: _function_
 
 Defined in index.d.ts:632
 
 #### Type declaration:
 
-▸ (`transaction`: [Transaction](interfaces/transaction.md), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): *Promise‹[Bytes](README.md#bytes)›*
+▸ (`transaction`: [Transaction](interfaces/transaction.md), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): _Promise‹[Bytes](README.md#bytes)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`transaction` | [Transaction](interfaces/transaction.md) |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `transaction` | [Transaction](interfaces/transaction.md)       |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
 
-___
+---
 
-###  EthChainId
+### EthChainId
 
-Ƭ **EthChainId**: *function*
+Ƭ **EthChainId**: _function_
 
 Defined in index.d.ts:633
 
 #### Type declaration:
 
-▸ (): *Promise‹[ChainId](README.md#chainid)›*
+▸ (): _Promise‹[ChainId](README.md#chainid)›_
 
-___
+---
 
-###  EthCoinbase
+### EthCoinbase
 
-Ƭ **EthCoinbase**: *function*
+Ƭ **EthCoinbase**: _function_
 
 Defined in index.d.ts:634
 
 #### Type declaration:
 
-▸ (): *Promise‹[Address](README.md#address)›*
+▸ (): _Promise‹[Address](README.md#address)›_
 
-___
+---
 
-###  EthEstimateGas
+### EthEstimateGas
 
-Ƭ **EthEstimateGas**: *function*
+Ƭ **EthEstimateGas**: _function_
 
 Defined in index.d.ts:635
 
 #### Type declaration:
 
-▸ (`transaction`: [Transaction](interfaces/transaction.md)): *Promise‹[Integer](README.md#integer)›*
+▸ (`transaction`: [Transaction](interfaces/transaction.md)): _Promise‹[Integer](README.md#integer)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`transaction` | [Transaction](interfaces/transaction.md) |
+| Name          | Type                                     |
+| ------------- | ---------------------------------------- |
+| `transaction` | [Transaction](interfaces/transaction.md) |
 
-___
+---
 
-###  EthGasPrice
+### EthGasPrice
 
-Ƭ **EthGasPrice**: *function*
+Ƭ **EthGasPrice**: _function_
 
 Defined in index.d.ts:636
 
 #### Type declaration:
 
-▸ (): *Promise‹[GasPriceResult](README.md#gaspriceresult)›*
+▸ (): _Promise‹[GasPriceResult](README.md#gaspriceresult)›_
 
-___
+---
 
-###  EthGetBalance
+### EthGetBalance
 
-Ƭ **EthGetBalance**: *function*
+Ƭ **EthGetBalance**: _function_
 
 Defined in index.d.ts:637
 
 #### Type declaration:
 
-▸ (`address`: [Address](README.md#address), `blockNumber`: [BlockNumber](README.md#blocknumber)): *Promise‹[IntegerOrNull](README.md#integerornull)›*
+▸ (`address`: [Address](README.md#address), `blockNumber`: [BlockNumber](README.md#blocknumber)): _Promise‹[IntegerOrNull](README.md#integerornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`address` | [Address](README.md#address) |
-`blockNumber` | [BlockNumber](README.md#blocknumber) |
+| Name          | Type                                 |
+| ------------- | ------------------------------------ |
+| `address`     | [Address](README.md#address)         |
+| `blockNumber` | [BlockNumber](README.md#blocknumber) |
 
-___
+---
 
-###  EthGetBlockByHash
+### EthGetBlockByHash
 
-Ƭ **EthGetBlockByHash**: *function*
+Ƭ **EthGetBlockByHash**: _function_
 
 Defined in index.d.ts:638
 
 #### Type declaration:
 
-▸ (`blockHash`: [BlockHash](README.md#blockhash), `includeTransactions`: [IsTransactionsIncluded](README.md#istransactionsincluded)): *Promise‹[BlockOrNull](README.md#blockornull)›*
+▸ (`blockHash`: [BlockHash](README.md#blockhash), `includeTransactions`: [IsTransactionsIncluded](README.md#istransactionsincluded)): _Promise‹[BlockOrNull](README.md#blockornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockHash` | [BlockHash](README.md#blockhash) |
-`includeTransactions` | [IsTransactionsIncluded](README.md#istransactionsincluded) |
+| Name                  | Type                                                       |
+| --------------------- | ---------------------------------------------------------- |
+| `blockHash`           | [BlockHash](README.md#blockhash)                           |
+| `includeTransactions` | [IsTransactionsIncluded](README.md#istransactionsincluded) |
 
-___
+---
 
-###  EthGetBlockByNumber
+### EthGetBlockByNumber
 
-Ƭ **EthGetBlockByNumber**: *function*
+Ƭ **EthGetBlockByNumber**: _function_
 
 Defined in index.d.ts:639
 
 #### Type declaration:
 
-▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag), `includeTransactions`: [IsTransactionsIncluded](README.md#istransactionsincluded)): *Promise‹[BlockOrNull](README.md#blockornull)›*
+▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag), `includeTransactions`: [IsTransactionsIncluded](README.md#istransactionsincluded)): _Promise‹[BlockOrNull](README.md#blockornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
-`includeTransactions` | [IsTransactionsIncluded](README.md#istransactionsincluded) |
+| Name                  | Type                                                       |
+| --------------------- | ---------------------------------------------------------- |
+| `blockNumber`         | [BlockNumberOrTag](README.md#blocknumberortag)             |
+| `includeTransactions` | [IsTransactionsIncluded](README.md#istransactionsincluded) |
 
-___
+---
 
-###  EthGetBlockTransactionCountByHash
+### EthGetBlockTransactionCountByHash
 
-Ƭ **EthGetBlockTransactionCountByHash**: *function*
+Ƭ **EthGetBlockTransactionCountByHash**: _function_
 
 Defined in index.d.ts:640
 
 #### Type declaration:
 
-▸ (`blockHash`: [BlockHash](README.md#blockhash)): *Promise‹[IntegerOrNull](README.md#integerornull)›*
+▸ (`blockHash`: [BlockHash](README.md#blockhash)): _Promise‹[IntegerOrNull](README.md#integerornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockHash` | [BlockHash](README.md#blockhash) |
+| Name        | Type                             |
+| ----------- | -------------------------------- |
+| `blockHash` | [BlockHash](README.md#blockhash) |
 
-___
+---
 
-###  EthGetBlockTransactionCountByNumber
+### EthGetBlockTransactionCountByNumber
 
-Ƭ **EthGetBlockTransactionCountByNumber**: *function*
+Ƭ **EthGetBlockTransactionCountByNumber**: _function_
 
 Defined in index.d.ts:641
 
 #### Type declaration:
 
-▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): *Promise‹[IntegerOrNull](README.md#integerornull)›*
+▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): _Promise‹[IntegerOrNull](README.md#integerornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
 
-___
+---
 
-###  EthGetCode
+### EthGetCode
 
-Ƭ **EthGetCode**: *function*
+Ƭ **EthGetCode**: _function_
 
 Defined in index.d.ts:642
 
 #### Type declaration:
 
-▸ (`address`: [Address](README.md#address), `blockNumber`: [BlockNumber](README.md#blocknumber)): *Promise‹[Bytes](README.md#bytes)›*
+▸ (`address`: [Address](README.md#address), `blockNumber`: [BlockNumber](README.md#blocknumber)): _Promise‹[Bytes](README.md#bytes)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`address` | [Address](README.md#address) |
-`blockNumber` | [BlockNumber](README.md#blocknumber) |
+| Name          | Type                                 |
+| ------------- | ------------------------------------ |
+| `address`     | [Address](README.md#address)         |
+| `blockNumber` | [BlockNumber](README.md#blocknumber) |
 
-___
+---
 
-###  EthGetFilterChanges
+### EthGetFilterChanges
 
-Ƭ **EthGetFilterChanges**: *function*
+Ƭ **EthGetFilterChanges**: _function_
 
 Defined in index.d.ts:643
 
 #### Type declaration:
 
-▸ (`filterId`: [FilterId](README.md#filterid)): *Promise‹[LogResult](README.md#logresult)›*
+▸ (`filterId`: [FilterId](README.md#filterid)): _Promise‹[LogResult](README.md#logresult)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`filterId` | [FilterId](README.md#filterid) |
+| Name       | Type                           |
+| ---------- | ------------------------------ |
+| `filterId` | [FilterId](README.md#filterid) |
 
-___
+---
 
-###  EthGetFilterLogs
+### EthGetFilterLogs
 
-Ƭ **EthGetFilterLogs**: *function*
+Ƭ **EthGetFilterLogs**: _function_
 
 Defined in index.d.ts:644
 
 #### Type declaration:
 
-▸ (`filterId`: [FilterId](README.md#filterid)): *Promise‹[SetOfLogs](README.md#setoflogs)›*
+▸ (`filterId`: [FilterId](README.md#filterid)): _Promise‹[SetOfLogs](README.md#setoflogs)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`filterId` | [FilterId](README.md#filterid) |
+| Name       | Type                           |
+| ---------- | ------------------------------ |
+| `filterId` | [FilterId](README.md#filterid) |
 
-___
+---
 
-###  EthGetLogs
+### EthGetLogs
 
-Ƭ **EthGetLogs**: *function*
+Ƭ **EthGetLogs**: _function_
 
 Defined in index.d.ts:648
 
 #### Type declaration:
 
-▸ (`filter`: [Filter](interfaces/filter.md)): *Promise‹[SetOfLogs](README.md#setoflogs)›*
+▸ (`filter`: [Filter](interfaces/filter.md)): _Promise‹[SetOfLogs](README.md#setoflogs)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`filter` | [Filter](interfaces/filter.md) |
+| Name     | Type                           |
+| -------- | ------------------------------ |
+| `filter` | [Filter](interfaces/filter.md) |
 
-___
+---
 
-###  EthGetProof
+### EthGetProof
 
-Ƭ **EthGetProof**: *function*
+Ƭ **EthGetProof**: _function_
 
 Defined in index.d.ts:659
 
 #### Type declaration:
 
-▸ (`address`: [Address](README.md#address), `storageKeys`: [StorageKeys](README.md#storagekeys), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): *Promise‹[ProofAccountOrNull](README.md#proofaccountornull)›*
+▸ (`address`: [Address](README.md#address), `storageKeys`: [StorageKeys](README.md#storagekeys), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): _Promise‹[ProofAccountOrNull](README.md#proofaccountornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`address` | [Address](README.md#address) |
-`storageKeys` | [StorageKeys](README.md#storagekeys) |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `address`     | [Address](README.md#address)                   |
+| `storageKeys` | [StorageKeys](README.md#storagekeys)           |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
 
-___
+---
 
-###  EthGetRawTransactionByBlockHashAndIndex
+### EthGetRawTransactionByBlockHashAndIndex
 
-Ƭ **EthGetRawTransactionByBlockHashAndIndex**: *function*
+Ƭ **EthGetRawTransactionByBlockHashAndIndex**: _function_
 
 Defined in index.d.ts:646
 
 #### Type declaration:
 
-▸ (`blockHash`: [BlockHash](README.md#blockhash), `index`: [Integer](README.md#integer)): *Promise‹[Bytes](README.md#bytes)›*
+▸ (`blockHash`: [BlockHash](README.md#blockhash), `index`: [Integer](README.md#integer)): _Promise‹[Bytes](README.md#bytes)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockHash` | [BlockHash](README.md#blockhash) |
-`index` | [Integer](README.md#integer) |
+| Name        | Type                             |
+| ----------- | -------------------------------- |
+| `blockHash` | [BlockHash](README.md#blockhash) |
+| `index`     | [Integer](README.md#integer)     |
 
-___
+---
 
-###  EthGetRawTransactionByBlockNumberAndIndex
+### EthGetRawTransactionByBlockNumberAndIndex
 
-Ƭ **EthGetRawTransactionByBlockNumberAndIndex**: *function*
+Ƭ **EthGetRawTransactionByBlockNumberAndIndex**: _function_
 
 Defined in index.d.ts:647
 
 #### Type declaration:
 
-▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag), `index`: [Integer](README.md#integer)): *Promise‹[Bytes](README.md#bytes)›*
+▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag), `index`: [Integer](README.md#integer)): _Promise‹[Bytes](README.md#bytes)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
-`index` | [Integer](README.md#integer) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| `index`       | [Integer](README.md#integer)                   |
 
-___
+---
 
-###  EthGetRawTransactionByHash
+### EthGetRawTransactionByHash
 
-Ƭ **EthGetRawTransactionByHash**: *function*
+Ƭ **EthGetRawTransactionByHash**: _function_
 
 Defined in index.d.ts:645
 
 #### Type declaration:
 
-▸ (`transactionHash`: [TransactionHash](README.md#transactionhash)): *Promise‹[Bytes](README.md#bytes)›*
+▸ (`transactionHash`: [TransactionHash](README.md#transactionhash)): _Promise‹[Bytes](README.md#bytes)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`transactionHash` | [TransactionHash](README.md#transactionhash) |
+| Name              | Type                                         |
+| ----------------- | -------------------------------------------- |
+| `transactionHash` | [TransactionHash](README.md#transactionhash) |
 
-___
+---
 
-###  EthGetStorageAt
+### EthGetStorageAt
 
-Ƭ **EthGetStorageAt**: *function*
+Ƭ **EthGetStorageAt**: _function_
 
 Defined in index.d.ts:649
 
 #### Type declaration:
 
-▸ (`address`: [Address](README.md#address), `key`: [Position](README.md#position), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): *Promise‹[DataWord](README.md#dataword)›*
+▸ (`address`: [Address](README.md#address), `key`: [Position](README.md#position), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): _Promise‹[DataWord](README.md#dataword)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`address` | [Address](README.md#address) |
-`key` | [Position](README.md#position) |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `address`     | [Address](README.md#address)                   |
+| `key`         | [Position](README.md#position)                 |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
 
-___
+---
 
-###  EthGetTransactionByBlockHashAndIndex
+### EthGetTransactionByBlockHashAndIndex
 
-Ƭ **EthGetTransactionByBlockHashAndIndex**: *function*
+Ƭ **EthGetTransactionByBlockHashAndIndex**: _function_
 
 Defined in index.d.ts:650
 
 #### Type declaration:
 
-▸ (`blockHash`: [BlockHash](README.md#blockhash), `index`: [Integer](README.md#integer)): *Promise‹[TransactionOrNull](README.md#transactionornull)›*
+▸ (`blockHash`: [BlockHash](README.md#blockhash), `index`: [Integer](README.md#integer)): _Promise‹[TransactionOrNull](README.md#transactionornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockHash` | [BlockHash](README.md#blockhash) |
-`index` | [Integer](README.md#integer) |
+| Name        | Type                             |
+| ----------- | -------------------------------- |
+| `blockHash` | [BlockHash](README.md#blockhash) |
+| `index`     | [Integer](README.md#integer)     |
 
-___
+---
 
-###  EthGetTransactionByBlockNumberAndIndex
+### EthGetTransactionByBlockNumberAndIndex
 
-Ƭ **EthGetTransactionByBlockNumberAndIndex**: *function*
+Ƭ **EthGetTransactionByBlockNumberAndIndex**: _function_
 
 Defined in index.d.ts:651
 
 #### Type declaration:
 
-▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag), `index`: [Integer](README.md#integer)): *Promise‹[TransactionOrNull](README.md#transactionornull)›*
+▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag), `index`: [Integer](README.md#integer)): _Promise‹[TransactionOrNull](README.md#transactionornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
-`index` | [Integer](README.md#integer) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| `index`       | [Integer](README.md#integer)                   |
 
-___
+---
 
-###  EthGetTransactionByHash
+### EthGetTransactionByHash
 
-Ƭ **EthGetTransactionByHash**: *function*
+Ƭ **EthGetTransactionByHash**: _function_
 
 Defined in index.d.ts:652
 
 #### Type declaration:
 
-▸ (`transactionHash`: [TransactionHash](README.md#transactionhash)): *Promise‹[TransactionOrNull](README.md#transactionornull)›*
+▸ (`transactionHash`: [TransactionHash](README.md#transactionhash)): _Promise‹[TransactionOrNull](README.md#transactionornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`transactionHash` | [TransactionHash](README.md#transactionhash) |
+| Name              | Type                                         |
+| ----------------- | -------------------------------------------- |
+| `transactionHash` | [TransactionHash](README.md#transactionhash) |
 
-___
+---
 
-###  EthGetTransactionCount
+### EthGetTransactionCount
 
-Ƭ **EthGetTransactionCount**: *function*
+Ƭ **EthGetTransactionCount**: _function_
 
 Defined in index.d.ts:653
 
 #### Type declaration:
 
-▸ (`address`: [Address](README.md#address), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): *Promise‹[NonceOrNull](README.md#nonceornull)›*
+▸ (`address`: [Address](README.md#address), `blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): _Promise‹[NonceOrNull](README.md#nonceornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`address` | [Address](README.md#address) |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `address`     | [Address](README.md#address)                   |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
 
-___
+---
 
-###  EthGetTransactionReceipt
+### EthGetTransactionReceipt
 
-Ƭ **EthGetTransactionReceipt**: *function*
+Ƭ **EthGetTransactionReceipt**: _function_
 
 Defined in index.d.ts:654
 
 #### Type declaration:
 
-▸ (`transactionHash`: [TransactionHash](README.md#transactionhash)): *Promise‹[TransactionReceiptOrNull](README.md#transactionreceiptornull)›*
+▸ (`transactionHash`: [TransactionHash](README.md#transactionhash)): _Promise‹[TransactionReceiptOrNull](README.md#transactionreceiptornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`transactionHash` | [TransactionHash](README.md#transactionhash) |
+| Name              | Type                                         |
+| ----------------- | -------------------------------------------- |
+| `transactionHash` | [TransactionHash](README.md#transactionhash) |
 
-___
+---
 
-###  EthGetUncleByBlockHashAndIndex
+### EthGetUncleByBlockHashAndIndex
 
-Ƭ **EthGetUncleByBlockHashAndIndex**: *function*
+Ƭ **EthGetUncleByBlockHashAndIndex**: _function_
 
 Defined in index.d.ts:655
 
 #### Type declaration:
 
-▸ (`blockHash`: [BlockHash](README.md#blockhash), `index`: [Integer](README.md#integer)): *Promise‹[BlockOrNull](README.md#blockornull)›*
+▸ (`blockHash`: [BlockHash](README.md#blockhash), `index`: [Integer](README.md#integer)): _Promise‹[BlockOrNull](README.md#blockornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockHash` | [BlockHash](README.md#blockhash) |
-`index` | [Integer](README.md#integer) |
+| Name        | Type                             |
+| ----------- | -------------------------------- |
+| `blockHash` | [BlockHash](README.md#blockhash) |
+| `index`     | [Integer](README.md#integer)     |
 
-___
+---
 
-###  EthGetUncleByBlockNumberAndIndex
+### EthGetUncleByBlockNumberAndIndex
 
-Ƭ **EthGetUncleByBlockNumberAndIndex**: *function*
+Ƭ **EthGetUncleByBlockNumberAndIndex**: _function_
 
 Defined in index.d.ts:656
 
 #### Type declaration:
 
-▸ (`uncleBlockNumber`: [BlockNumber](README.md#blocknumber), `index`: [Integer](README.md#integer)): *Promise‹[BlockOrNull](README.md#blockornull)›*
+▸ (`uncleBlockNumber`: [BlockNumber](README.md#blocknumber), `index`: [Integer](README.md#integer)): _Promise‹[BlockOrNull](README.md#blockornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`uncleBlockNumber` | [BlockNumber](README.md#blocknumber) |
-`index` | [Integer](README.md#integer) |
+| Name               | Type                                 |
+| ------------------ | ------------------------------------ |
+| `uncleBlockNumber` | [BlockNumber](README.md#blocknumber) |
+| `index`            | [Integer](README.md#integer)         |
 
-___
+---
 
-###  EthGetUncleCountByBlockHash
+### EthGetUncleCountByBlockHash
 
-Ƭ **EthGetUncleCountByBlockHash**: *function*
+Ƭ **EthGetUncleCountByBlockHash**: _function_
 
 Defined in index.d.ts:657
 
 #### Type declaration:
 
-▸ (`blockHash`: [BlockHash](README.md#blockhash)): *Promise‹[IntegerOrNull](README.md#integerornull)›*
+▸ (`blockHash`: [BlockHash](README.md#blockhash)): _Promise‹[IntegerOrNull](README.md#integerornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockHash` | [BlockHash](README.md#blockhash) |
+| Name        | Type                             |
+| ----------- | -------------------------------- |
+| `blockHash` | [BlockHash](README.md#blockhash) |
 
-___
+---
 
-###  EthGetUncleCountByBlockNumber
+### EthGetUncleCountByBlockNumber
 
-Ƭ **EthGetUncleCountByBlockNumber**: *function*
+Ƭ **EthGetUncleCountByBlockNumber**: _function_
 
 Defined in index.d.ts:658
 
 #### Type declaration:
 
-▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): *Promise‹[IntegerOrNull](README.md#integerornull)›*
+▸ (`blockNumber`: [BlockNumberOrTag](README.md#blocknumberortag)): _Promise‹[IntegerOrNull](README.md#integerornull)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
+| Name          | Type                                           |
+| ------------- | ---------------------------------------------- |
+| `blockNumber` | [BlockNumberOrTag](README.md#blocknumberortag) |
 
-___
+---
 
-###  EthGetWork
+### EthGetWork
 
-Ƭ **EthGetWork**: *function*
+Ƭ **EthGetWork**: _function_
 
 Defined in index.d.ts:660
 
 #### Type declaration:
 
-▸ (): *Promise‹[GetWorkResults](README.md#getworkresults)›*
+▸ (): _Promise‹[GetWorkResults](README.md#getworkresults)›_
 
-___
+---
 
-###  EthHashrate
+### EthHashrate
 
-Ƭ **EthHashrate**: *function*
+Ƭ **EthHashrate**: _function_
 
 Defined in index.d.ts:661
 
 #### Type declaration:
 
-▸ (): *Promise‹[Integer](README.md#integer)›*
+▸ (): _Promise‹[Integer](README.md#integer)›_
 
-___
+---
 
-###  EthMining
+### EthMining
 
-Ƭ **EthMining**: *function*
+Ƭ **EthMining**: _function_
 
 Defined in index.d.ts:662
 
 #### Type declaration:
 
-▸ (): *Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›*
+▸ (): _Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›_
 
-___
+---
 
-###  EthNewBlockFilter
+### EthNewBlockFilter
 
-Ƭ **EthNewBlockFilter**: *function*
+Ƭ **EthNewBlockFilter**: _function_
 
 Defined in index.d.ts:663
 
 #### Type declaration:
 
-▸ (): *Promise‹[FilterId](README.md#filterid)›*
+▸ (): _Promise‹[FilterId](README.md#filterid)›_
 
-___
+---
 
-###  EthNewFilter
+### EthNewFilter
 
-Ƭ **EthNewFilter**: *function*
+Ƭ **EthNewFilter**: _function_
 
 Defined in index.d.ts:664
 
 #### Type declaration:
 
-▸ (`filter`: [Filter](interfaces/filter.md)): *Promise‹[Integer](README.md#integer)›*
+▸ (`filter`: [Filter](interfaces/filter.md)): _Promise‹[Integer](README.md#integer)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`filter` | [Filter](interfaces/filter.md) |
+| Name     | Type                           |
+| -------- | ------------------------------ |
+| `filter` | [Filter](interfaces/filter.md) |
 
-___
+---
 
-###  EthNewPendingTransactionFilter
+### EthNewPendingTransactionFilter
 
-Ƭ **EthNewPendingTransactionFilter**: *function*
+Ƭ **EthNewPendingTransactionFilter**: _function_
 
 Defined in index.d.ts:665
 
 #### Type declaration:
 
-▸ (): *Promise‹[FilterId](README.md#filterid)›*
+▸ (): _Promise‹[FilterId](README.md#filterid)›_
 
-___
+---
 
-###  EthPendingTransactions
+### EthPendingTransactions
 
-Ƭ **EthPendingTransactions**: *function*
+Ƭ **EthPendingTransactions**: _function_
 
 Defined in index.d.ts:666
 
 #### Type declaration:
 
-▸ (): *Promise‹[Transactions](README.md#transactions)›*
+▸ (): _Promise‹[Transactions](README.md#transactions)›_
 
-___
+---
 
-###  EthProtocolVersion
+### EthProtocolVersion
 
-Ƭ **EthProtocolVersion**: *function*
+Ƭ **EthProtocolVersion**: _function_
 
 Defined in index.d.ts:667
 
 #### Type declaration:
 
-▸ (): *Promise‹[Integer](README.md#integer)›*
+▸ (): _Promise‹[Integer](README.md#integer)›_
 
-___
+---
 
-###  EthSendRawTransaction
+### EthSendRawTransaction
 
-Ƭ **EthSendRawTransaction**: *function*
+Ƭ **EthSendRawTransaction**: _function_
 
 Defined in index.d.ts:668
 
 #### Type declaration:
 
-▸ (`signedTransactionData`: [Bytes](README.md#bytes)): *Promise‹[Keccak](README.md#keccak)›*
+▸ (`signedTransactionData`: [Bytes](README.md#bytes)): _Promise‹[Keccak](README.md#keccak)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`signedTransactionData` | [Bytes](README.md#bytes) |
+| Name                    | Type                     |
+| ----------------------- | ------------------------ |
+| `signedTransactionData` | [Bytes](README.md#bytes) |
 
-___
+---
 
-###  EthSubmitHashrate
+### EthSubmitHashrate
 
-Ƭ **EthSubmitHashrate**: *function*
+Ƭ **EthSubmitHashrate**: _function_
 
 Defined in index.d.ts:669
 
 #### Type declaration:
 
-▸ (`hashRate`: [DataWord](README.md#dataword), `id`: [DataWord](README.md#dataword)): *Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›*
+▸ (`hashRate`: [DataWord](README.md#dataword), `id`: [DataWord](README.md#dataword)): _Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`hashRate` | [DataWord](README.md#dataword) |
-`id` | [DataWord](README.md#dataword) |
+| Name       | Type                           |
+| ---------- | ------------------------------ |
+| `hashRate` | [DataWord](README.md#dataword) |
+| `id`       | [DataWord](README.md#dataword) |
 
-___
+---
 
-###  EthSubmitWork
+### EthSubmitWork
 
-Ƭ **EthSubmitWork**: *function*
+Ƭ **EthSubmitWork**: _function_
 
 Defined in index.d.ts:670
 
 #### Type declaration:
 
-▸ (`nonce`: [Nonce](README.md#nonce), `powHash`: [PowHash](README.md#powhash), `mixHash`: [MixHash](README.md#mixhash)): *Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›*
+▸ (`nonce`: [Nonce](README.md#nonce), `powHash`: [PowHash](README.md#powhash), `mixHash`: [MixHash](README.md#mixhash)): _Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`nonce` | [Nonce](README.md#nonce) |
-`powHash` | [PowHash](README.md#powhash) |
-`mixHash` | [MixHash](README.md#mixhash) |
+| Name      | Type                         |
+| --------- | ---------------------------- |
+| `nonce`   | [Nonce](README.md#nonce)     |
+| `powHash` | [PowHash](README.md#powhash) |
+| `mixHash` | [MixHash](README.md#mixhash) |
 
-___
+---
 
-###  EthSyncing
+### EthSyncing
 
-Ƭ **EthSyncing**: *function*
+Ƭ **EthSyncing**: _function_
 
 Defined in index.d.ts:671
 
 #### Type declaration:
 
-▸ (): *Promise‹[IsSyncingResult](README.md#issyncingresult)›*
+▸ (): _Promise‹[IsSyncingResult](README.md#issyncingresult)›_
 
-___
+---
 
-###  EthUninstallFilter
+### EthUninstallFilter
 
-Ƭ **EthUninstallFilter**: *function*
+Ƭ **EthUninstallFilter**: _function_
 
 Defined in index.d.ts:672
 
 #### Type declaration:
 
-▸ (`filterId`: [FilterId](README.md#filterid)): *Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›*
+▸ (`filterId`: [FilterId](README.md#filterid)): _Promise‹[BooleanVyG3AETh](README.md#booleanvyg3aeth)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`filterId` | [FilterId](README.md#filterid) |
+| Name       | Type                           |
+| ---------- | ------------------------------ |
+| `filterId` | [FilterId](README.md#filterid) |
 
-___
+---
 
-###  FilterId
+### FilterId
 
-Ƭ **FilterId**: *string*
+Ƭ **FilterId**: _string_
 
 Defined in index.d.ts:546
 
 An identifier used to reference the filter.
 
-___
+---
 
-###  From
+### From
 
-Ƭ **From**: *string*
+Ƭ **From**: _string_
 
 Defined in index.d.ts:38
 
 The sender of the transaction
 
-___
+---
 
-###  GasPriceResult
+### GasPriceResult
 
-Ƭ **GasPriceResult**: *string*
+Ƭ **GasPriceResult**: _string_
 
 Defined in index.d.ts:604
 
 Integer of the current gas price
 
-___
+---
 
-###  GetWorkResults
+### GetWorkResults
 
-Ƭ **GetWorkResults**: *[[PowHash](README.md#powhash), [SeedHash](README.md#seedhash), [Difficulty](README.md#difficulty)]*
+Ƭ **GetWorkResults**: _[[PowHash](README.md#powhash), [SeedHash](README.md#seedhash), [Difficulty](README.md#difficulty)]_
 
 Defined in index.d.ts:612
 
-___
+---
 
-###  Integer
+### Integer
 
-Ƭ **Integer**: *string*
+Ƭ **Integer**: _string_
 
 Defined in index.d.ts:81
 
 Hex representation of the integer
 
-___
+---
 
-###  IntegerOrNull
+### IntegerOrNull
 
-Ƭ **IntegerOrNull**: *[Integer](README.md#integer) | [Null](README.md#null)*
+Ƭ **IntegerOrNull**: _[Integer](README.md#integer) | [Null](README.md#null)_
 
 Defined in index.d.ts:605
 
-___
+---
 
-###  IsNetListening
+### IsNetListening
 
-Ƭ **IsNetListening**: *boolean*
+Ƭ **IsNetListening**: _boolean_
 
 Defined in index.d.ts:590
 
-___
+---
 
-###  IsSyncingResult
+### IsSyncingResult
 
-Ƭ **IsSyncingResult**: *[SyncingData](interfaces/syncingdata.md) | [BooleanVyG3AETh](README.md#booleanvyg3aeth)*
+Ƭ **IsSyncingResult**: _[SyncingData](interfaces/syncingdata.md) | [BooleanVyG3AETh](README.md#booleanvyg3aeth)_
 
 Defined in index.d.ts:619
 
-___
+---
 
-###  IsTransactionsIncluded
+### IsTransactionsIncluded
 
-Ƭ **IsTransactionsIncluded**: *boolean*
+Ƭ **IsTransactionsIncluded**: _boolean_
 
 Defined in index.d.ts:540
 
-___
+---
 
-###  Keccak
+### Keccak
 
-Ƭ **Keccak**: *string*
+Ƭ **Keccak**: _string_
 
 Defined in index.d.ts:8
 
 Hex representation of a Keccak 256 hash
 
-___
+---
 
-###  LogAddress
+### LogAddress
 
-Ƭ **LogAddress**: *string*
+Ƭ **LogAddress**: _string_
 
 Defined in index.d.ts:297
 
 Sender of the transaction
 
-___
+---
 
-###  LogData
+### LogData
 
-Ƭ **LogData**: *string*
+Ƭ **LogData**: _string_
 
 Defined in index.d.ts:303
 
 The data/input string sent along with the transaction
 
-___
+---
 
-###  LogIndex
+### LogIndex
 
-Ƭ **LogIndex**: *string*
+Ƭ **LogIndex**: _string_
 
 Defined in index.d.ts:309
 
 The index of the event within its transaction, null when its pending
 
-___
+---
 
-###  LogIsRemoved
+### LogIsRemoved
 
-Ƭ **LogIsRemoved**: *boolean*
+Ƭ **LogIsRemoved**: _boolean_
 
 Defined in index.d.ts:315
 
 Whether or not the log was orphaned off the main chain
 
-___
+---
 
-###  LogResult
+### LogResult
 
-Ƭ **LogResult**: *[Log](interfaces/log.md)[]*
+Ƭ **LogResult**: _[Log](interfaces/log.md)[]_
 
 Defined in index.d.ts:607
 
-___
+---
 
-###  LogTopics
+### LogTopics
 
-Ƭ **LogTopics**: *[Topic](README.md#topic)[]*
+Ƭ **LogTopics**: _[Topic](README.md#topic)[]_
 
 Defined in index.d.ts:136
 
 Topics are order-dependent. Each topic can also be an array of DATA with 'or' options.
 
-___
+---
 
-###  Logs
+### Logs
 
-Ƭ **Logs**: *[Log](interfaces/log.md)[]*
+Ƭ **Logs**: _[Log](interfaces/log.md)[]_
 
 Defined in index.d.ts:356
 
 An array of all the logs triggered during the transaction
 
-___
+---
 
-###  MixHash
+### MixHash
 
-Ƭ **MixHash**: *string*
+Ƭ **MixHash**: _string_
 
 Defined in index.d.ts:588
 
 The mix digest.
 
-___
+---
 
-###  NetListening
+### NetListening
 
-Ƭ **NetListening**: *function*
+Ƭ **NetListening**: _function_
 
 Defined in index.d.ts:628
 
 #### Type declaration:
 
-▸ (): *Promise‹[IsNetListening](README.md#isnetlistening)›*
+▸ (): _Promise‹[IsNetListening](README.md#isnetlistening)›_
 
-___
+---
 
-###  NetPeerCount
+### NetPeerCount
 
-Ƭ **NetPeerCount**: *function*
+Ƭ **NetPeerCount**: _function_
 
 Defined in index.d.ts:629
 
 #### Type declaration:
 
-▸ (): *Promise‹[NumConnectedPeers](README.md#numconnectedpeers)›*
+▸ (): _Promise‹[NumConnectedPeers](README.md#numconnectedpeers)›_
 
-___
+---
 
-###  NetVersion
+### NetVersion
 
-Ƭ **NetVersion**: *function*
+Ƭ **NetVersion**: _function_
 
 Defined in index.d.ts:630
 
 #### Type declaration:
 
-▸ (): *Promise‹[NetworkId](README.md#networkid)›*
+▸ (): _Promise‹[NetworkId](README.md#networkid)›_
 
-___
+---
 
-###  NetworkId
+### NetworkId
 
-Ƭ **NetworkId**: *string*
+Ƭ **NetworkId**: _string_
 
 Defined in index.d.ts:597
 
-___
+---
 
-###  Nonce
+### Nonce
 
-Ƭ **Nonce**: *string*
+Ƭ **Nonce**: _string_
 
 Defined in index.d.ts:154
 
 A number only to be used once
 
-___
+---
 
-###  NonceOrNull
+### NonceOrNull
 
-Ƭ **NonceOrNull**: *[Nonce](README.md#nonce) | [Null](README.md#null)*
+Ƭ **NonceOrNull**: _[Nonce](README.md#nonce) | [Null](README.md#null)_
 
 Defined in index.d.ts:155
 
-___
+---
 
-###  Null
+### Null
 
-Ƭ **Null**: *null*
+Ƭ **Null**: _null_
 
 Defined in index.d.ts:14
 
 Null
 
-___
+---
 
-###  NumConnectedPeers
+### NumConnectedPeers
 
-Ƭ **NumConnectedPeers**: *string*
+Ƭ **NumConnectedPeers**: _string_
 
 Defined in index.d.ts:596
 
 Hex representation of number of connected peers
 
-___
+---
 
-###  OneOrArrayOfAddresses
+### OneOrArrayOfAddresses
 
-Ƭ **OneOrArrayOfAddresses**: *[Address](README.md#address) | [Addresses](README.md#addresses)*
+Ƭ **OneOrArrayOfAddresses**: _[Address](README.md#address) | [Addresses](README.md#addresses)_
 
 Defined in index.d.ts:124
 
-___
+---
 
-###  Position
+### Position
 
-Ƭ **Position**: *string*
+Ƭ **Position**: _string_
 
 Defined in index.d.ts:564
 
 Hex representation of the storage slot where the variable exists
 
-___
+---
 
-###  PowHash
+### PowHash
 
-Ƭ **PowHash**: *string*
+Ƭ **PowHash**: _string_
 
 Defined in index.d.ts:481
 
 Current block header PoW hash.
 
-___
+---
 
-###  ProofAccountAddress
+### ProofAccountAddress
 
-Ƭ **ProofAccountAddress**: *string*
+Ƭ **ProofAccountAddress**: _string_
 
 Defined in index.d.ts:401
 
 The address of the account or contract of the request
 
-___
+---
 
-###  ProofAccountBalance
+### ProofAccountBalance
 
-Ƭ **ProofAccountBalance**: *string*
+Ƭ **ProofAccountBalance**: _string_
 
 Defined in index.d.ts:419
 
 The Ether balance of the account or contract of the request
 
-___
+---
 
-###  ProofAccountCodeHash
+### ProofAccountCodeHash
 
-Ƭ **ProofAccountCodeHash**: *string*
+Ƭ **ProofAccountCodeHash**: _string_
 
 Defined in index.d.ts:425
 
 The code hash of the contract of the request (keccak(NULL) if external account)
 
-___
+---
 
-###  ProofAccountNonce
+### ProofAccountNonce
 
-Ƭ **ProofAccountNonce**: *string*
+Ƭ **ProofAccountNonce**: _string_
 
 Defined in index.d.ts:431
 
 The transaction count of the account or contract of the request
 
-___
+---
 
-###  ProofAccountOrNull
+### ProofAccountOrNull
 
-Ƭ **ProofAccountOrNull**: *[ProofAccount](interfaces/proofaccount.md) | [Null](README.md#null)*
+Ƭ **ProofAccountOrNull**: _[ProofAccount](interfaces/proofaccount.md) | [Null](README.md#null)_
 
 Defined in index.d.ts:611
 
-___
+---
 
-###  ProofAccountStorageHash
+### ProofAccountStorageHash
 
-Ƭ **ProofAccountStorageHash**: *string*
+Ƭ **ProofAccountStorageHash**: _string_
 
 Defined in index.d.ts:437
 
 The storage hash of the contract of the request (keccak(rlp(NULL)) if external account)
 
-___
+---
 
-###  ProofNode
+### ProofNode
 
-Ƭ **ProofNode**: *string*
+Ƭ **ProofNode**: _string_
 
 Defined in index.d.ts:407
 
 An individual node used to prove a path down a merkle-patricia-tree
 
-___
+---
 
-###  ProofNodes
+### ProofNodes
 
-Ƭ **ProofNodes**: *[ProofNode](README.md#proofnode)[]*
+Ƭ **ProofNodes**: _[ProofNode](README.md#proofnode)[]_
 
 Defined in index.d.ts:413
 
 The set of node values needed to traverse a patricia merkle tree (from root to leaf) to retrieve a value
 
-___
+---
 
-###  ReceiptContractAddress
+### ReceiptContractAddress
 
-Ƭ **ReceiptContractAddress**: *[Address](README.md#address) | [Null](README.md#null)*
+Ƭ **ReceiptContractAddress**: _[Address](README.md#address) | [Null](README.md#null)_
 
 Defined in index.d.ts:338
 
 The contract address created, if the transaction was a contract creation, otherwise null
 
-___
+---
 
-###  ReceiptCumulativeGasUsed
+### ReceiptCumulativeGasUsed
 
-Ƭ **ReceiptCumulativeGasUsed**: *string*
+Ƭ **ReceiptCumulativeGasUsed**: _string_
 
 Defined in index.d.ts:344
 
 The gas units used by the transaction
 
-___
+---
 
-###  ReceiptGasUsed
+### ReceiptGasUsed
 
-Ƭ **ReceiptGasUsed**: *string*
+Ƭ **ReceiptGasUsed**: _string_
 
 Defined in index.d.ts:350
 
 The total gas used by the transaction
 
-___
+---
 
-###  ReceiptPostTransactionState
+### ReceiptPostTransactionState
 
-Ƭ **ReceiptPostTransactionState**: *string*
+Ƭ **ReceiptPostTransactionState**: _string_
 
 Defined in index.d.ts:368
 
 The intermediate stateRoot directly after transaction execution.
 
-___
+---
 
-###  ReceiptStatus
+### ReceiptStatus
 
-Ƭ **ReceiptStatus**: *boolean*
+Ƭ **ReceiptStatus**: _boolean_
 
 Defined in index.d.ts:374
 
 Whether or not the transaction threw an error.
 
-___
+---
 
-###  SeedHash
+### SeedHash
 
-Ƭ **SeedHash**: *string*
+Ƭ **SeedHash**: _string_
 
 Defined in index.d.ts:487
 
 The seed hash used for the DAG.
 
-___
+---
 
-###  SetOfLogs
+### SetOfLogs
 
-Ƭ **SetOfLogs**: *[Log](interfaces/log.md)[]*
+Ƭ **SetOfLogs**: _[Log](interfaces/log.md)[]_
 
 Defined in index.d.ts:608
 
-___
+---
 
-###  StorageKeys
+### StorageKeys
 
-Ƭ **StorageKeys**: *any*
+Ƭ **StorageKeys**: _any_
 
 Defined in index.d.ts:570
 
 A storage key is indexed from the solidity compiler by the order it is declared. For mappings it uses the keccak of the mapping key with its position (and recursively for X-dimensional mappings)
 
-___
+---
 
-###  StorageProofKey
+### StorageProofKey
 
-Ƭ **StorageProofKey**: *string*
+Ƭ **StorageProofKey**: _string_
 
 Defined in index.d.ts:142
 
 The key used to get the storage slot in its account tree.
 
-___
+---
 
-###  StorageProofSet
+### StorageProofSet
 
-Ƭ **StorageProofSet**: *[StorageProof](interfaces/storageproof.md)[]*
+Ƭ **StorageProofSet**: _[StorageProof](interfaces/storageproof.md)[]_
 
 Defined in index.d.ts:460
 
 Current block header PoW hash.
 
-___
+---
 
-###  StorageProofValue
+### StorageProofValue
 
-Ƭ **StorageProofValue**: *string*
+Ƭ **StorageProofValue**: _string_
 
 Defined in index.d.ts:443
 
 The value of the storage slot in its account tree
 
-___
+---
 
-###  SyncingDataCurrentBlock
+### SyncingDataCurrentBlock
 
-Ƭ **SyncingDataCurrentBlock**: *string*
+Ƭ **SyncingDataCurrentBlock**: _string_
 
 Defined in index.d.ts:505
 
 The current block, same as eth_blockNumber
 
-___
+---
 
-###  SyncingDataHighestBlock
+### SyncingDataHighestBlock
 
-Ƭ **SyncingDataHighestBlock**: *string*
+Ƭ **SyncingDataHighestBlock**: _string_
 
 Defined in index.d.ts:511
 
 The estimated highest block
 
-___
+---
 
-###  SyncingDataKnownStates
+### SyncingDataKnownStates
 
-Ƭ **SyncingDataKnownStates**: *string*
+Ƭ **SyncingDataKnownStates**: _string_
 
 Defined in index.d.ts:517
 
 The known states
 
-___
+---
 
-###  SyncingDataPulledStates
+### SyncingDataPulledStates
 
-Ƭ **SyncingDataPulledStates**: *string*
+Ƭ **SyncingDataPulledStates**: _string_
 
 Defined in index.d.ts:523
 
 The pulled states
 
-___
+---
 
-###  SyncingDataStartingBlock
+### SyncingDataStartingBlock
 
-Ƭ **SyncingDataStartingBlock**: *string*
+Ƭ **SyncingDataStartingBlock**: _string_
 
 Defined in index.d.ts:499
 
 Block at which the import started (will only be reset, after the sync reached his head)
 
-___
+---
 
-###  To
+### To
 
-Ƭ **To**: *[Address](README.md#address) | [Null](README.md#null)*
+Ƭ **To**: _[Address](README.md#address) | [Null](README.md#null)_
 
 Defined in index.d.ts:75
 
 Destination address of the transaction. Null if it was a contract create.
 
-___
+---
 
-###  Topic
+### Topic
 
-Ƭ **Topic**: *string*
+Ƭ **Topic**: _string_
 
 Defined in index.d.ts:130
 
 32 Bytes DATA of indexed log arguments. (In solidity: The first topic is the hash of the signature of the event (e.g. Deposit(address,bytes32,uint256))
 
-___
+---
 
-###  TransactionGas
+### TransactionGas
 
-Ƭ **TransactionGas**: *string*
+Ƭ **TransactionGas**: _string_
 
 Defined in index.d.ts:44
 
 The gas limit provided by the sender in Wei
 
-___
+---
 
-###  TransactionGasPrice
+### TransactionGasPrice
 
-Ƭ **TransactionGasPrice**: *string*
+Ƭ **TransactionGasPrice**: _string_
 
 Defined in index.d.ts:50
 
 The gas price willing to be paid by the sender in Wei
 
-___
+---
 
-###  TransactionHash
+### TransactionHash
 
-Ƭ **TransactionHash**: *string*
+Ƭ **TransactionHash**: _string_
 
 Defined in index.d.ts:56
 
 Keccak 256 Hash of the RLP encoding of a transaction
 
-___
+---
 
-###  TransactionIndex
+### TransactionIndex
 
-Ƭ **TransactionIndex**: *[Integer](README.md#integer) | [Null](README.md#null)*
+Ƭ **TransactionIndex**: _[Integer](README.md#integer) | [Null](README.md#null)_
 
 Defined in index.d.ts:87
 
 The index of the transaction. null when its pending
 
-___
+---
 
-###  TransactionInput
+### TransactionInput
 
-Ƭ **TransactionInput**: *string*
+Ƭ **TransactionInput**: _string_
 
 Defined in index.d.ts:62
 
 The data field sent with the transaction
 
-___
+---
 
-###  TransactionNonce
+### TransactionNonce
 
-Ƭ **TransactionNonce**: *string*
+Ƭ **TransactionNonce**: _string_
 
 Defined in index.d.ts:68
 
 The total number of prior transactions made by the sender
 
-___
+---
 
-###  TransactionOrNull
+### TransactionOrNull
 
-Ƭ **TransactionOrNull**: *[Transaction](interfaces/transaction.md) | [Null](README.md#null)*
+Ƭ **TransactionOrNull**: _[Transaction](interfaces/transaction.md) | [Null](README.md#null)_
 
 Defined in index.d.ts:609
 
-___
+---
 
-###  TransactionOrTransactionHash
+### TransactionOrTransactionHash
 
-Ƭ **TransactionOrTransactionHash**: *[Transaction](interfaces/transaction.md) | [TransactionHash](README.md#transactionhash)*
+Ƭ **TransactionOrTransactionHash**: _[Transaction](interfaces/transaction.md) | [TransactionHash](README.md#transactionhash)_
 
 Defined in index.d.ts:246
 
-___
+---
 
-###  TransactionReceiptOrNull
+### TransactionReceiptOrNull
 
-Ƭ **TransactionReceiptOrNull**: *[Receipt](interfaces/receipt.md) | [Null](README.md#null)*
+Ƭ **TransactionReceiptOrNull**: _[Receipt](interfaces/receipt.md) | [Null](README.md#null)_
 
 Defined in index.d.ts:610
 
-___
+---
 
-###  TransactionSigR
+### TransactionSigR
 
-Ƭ **TransactionSigR**: *string*
+Ƭ **TransactionSigR**: _string_
 
 Defined in index.d.ts:105
 
 ECDSA signature r
 
-___
+---
 
-###  TransactionSigS
+### TransactionSigS
 
-Ƭ **TransactionSigS**: *string*
+Ƭ **TransactionSigS**: _string_
 
 Defined in index.d.ts:111
 
 ECDSA signature s
 
-___
+---
 
-###  TransactionSigV
+### TransactionSigV
 
-Ƭ **TransactionSigV**: *string*
+Ƭ **TransactionSigV**: _string_
 
 Defined in index.d.ts:99
 
 ECDSA recovery id
 
-___
+---
 
-###  TransactionValue
+### TransactionValue
 
-Ƭ **TransactionValue**: *string*
+Ƭ **TransactionValue**: _string_
 
 Defined in index.d.ts:93
 
 Value of Ether being transferred in Wei
 
-___
+---
 
-###  Transactions
+### Transactions
 
-Ƭ **Transactions**: *[Transaction](interfaces/transaction.md)[]*
+Ƭ **Transactions**: _[Transaction](interfaces/transaction.md)[]_
 
 Defined in index.d.ts:618
 
 An array of transactions
 
-___
+---
 
-###  TransactionsOrHashes
+### TransactionsOrHashes
 
-Ƭ **TransactionsOrHashes**: *[TransactionOrTransactionHash](README.md#transactionortransactionhash)[]*
+Ƭ **TransactionsOrHashes**: _[TransactionOrTransactionHash](README.md#transactionortransactionhash)[]_
 
 Defined in index.d.ts:252
 
 Array of transaction objects, or 32 Bytes transaction hashes depending on the last given parameter
 
-___
+---
 
-###  UncleHash
+### UncleHash
 
-Ƭ **UncleHash**: *string*
+Ƭ **UncleHash**: _string_
 
 Defined in index.d.ts:258
 
 Block hash of the RLP encoding of an uncle block
 
-___
+---
 
-###  UncleHashes
+### UncleHashes
 
-Ƭ **UncleHashes**: *[UncleHash](README.md#unclehash)[]*
+Ƭ **UncleHashes**: _[UncleHash](README.md#unclehash)[]_
 
 Defined in index.d.ts:264
 
 Array of uncle hashes
 
-___
+---
 
-###  Web3ClientVersion
+### Web3ClientVersion
 
-Ƭ **Web3ClientVersion**: *function*
+Ƭ **Web3ClientVersion**: _function_
 
 Defined in index.d.ts:626
 
 #### Type declaration:
 
-▸ (): *Promise‹[ClientVersion](README.md#clientversion)›*
+▸ (): _Promise‹[ClientVersion](README.md#clientversion)›_
 
-___
+---
 
-###  Web3Sha3
+### Web3Sha3
 
-Ƭ **Web3Sha3**: *function*
+Ƭ **Web3Sha3**: _function_
 
 Defined in index.d.ts:627
 
 #### Type declaration:
 
-▸ (`data`: [Data](README.md#data)): *Promise‹[Keccak](README.md#keccak)›*
+▸ (`data`: [Data](README.md#data)): _Promise‹[Keccak](README.md#keccak)›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`data` | [Data](README.md#data) |
+| Name   | Type                   |
+| ------ | ---------------------- |
+| `data` | [Data](README.md#data) |
