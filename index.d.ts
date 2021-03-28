@@ -1054,4 +1054,6 @@ export declare class EthereumJSONRPC {
    */
   eth_uninstallFilter: EthUninstallFilter;
 }
-export default EthereumJSONRPC;
+// export default EthereumJSONRPC;
+
+export as namespace EthereumJSONRPC;
